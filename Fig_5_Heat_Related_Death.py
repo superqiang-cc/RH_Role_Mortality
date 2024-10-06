@@ -4,7 +4,7 @@
 # This script is developed and tested in Python 3.7.12 and Linux platform, and can be run also in Windows with
 # proper environment settings.
 # Description:
-# This script is the to plot the heat-related deaths (Figure 6 in the manuscript)
+# This script is the to plot the heat-related deaths (Figure 5 in the manuscript)
 # The four cities shown are: Miami (U.S.), Bristol (UK), Hochiminh (Vietnam), Taipei (Taiwan)
 
 
