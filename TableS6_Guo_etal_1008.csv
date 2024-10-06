@@ -1,0 +1,755 @@
+City,"T_mean
+(?)","T_std
+(?)","RH_mean
+(%)","RH_std
+(%)",Corr_T-RH,"P_mean
+(mm)","Elevation
+(m)","Dis_coast
+(km)","Lat
+(?)","GDP
+per capita
+(USD)",KG,Country,Region
+Buenos Aires,21.3,3.2,72.3,9.2,0.06,250.2,1,2,-34.6,7193,Cfa,Argentina,South America
+Cordoba,20.8,3.4,68.7,12.2,-0.04,131.7,432.7,573,-31.42,7193,Cwa,Argentina,South America
+Rosario,21.9,3.6,69.7,10,-0.1,175.2,8.6,211,-32.94,7193,Cfa,Argentina,South America
+Brisbane,23,2.2,74.8,7.8,0.04,617.2,84.9,10,-27.47,20536.4,Cfa,Australia,Australia
+Melbourne,17.5,4.1,68.1,11.1,-0.45,314.2,32.5,7,-37.78,20536.4,Cfb,Australia,Australia
+Sydney,20.7,2.2,74.5,8.9,0.24,508.2,26.6,3,-33.87,20536.4,Cfa,Australia,Australia
+Belo Horizonte,23.1,1.7,74.1,10.5,-0.66,65.6,804.6,332,-19.82,3596.2,Cwa,Brazil,South America
+Brasilia,22.4,1.5,76.2,11.6,-0.87,57.9,1112.3,871,-15.78,3596.2,Aw,Brazil,South America
+Curitiba,19.8,2.4,85.8,5.9,-0.38,75.3,963.2,56,-25.43,3596.2,Cfb,Brazil,South America
+Caratinga,24,1.6,77.4,7.5,-0.59,68.9,772.4,182,-19.79,3596.2,Aw,Brazil,South America
+Divinopolis,22.9,1.7,76.3,10.1,-0.62,64.8,734.7,317,-20.14,3596.2,Cwa,Brazil,South America
+Fortaleza,27,0.6,78.9,4.5,-0.45,220.8,11,0,-3.72,3596.2,As,Brazil,South America
+Juiz de Fora,23,1.8,80.7,6.7,-0.52,69.9,770.1,99,-21.76,3596.2,Cwa,Brazil,South America
+Londrina,23.6,1.9,76.8,9.8,-0.28,63,520.4,338,-23.31,3596.2,Cfa,Brazil,South America
+Maceio,26.2,0.6,80.5,4.5,-0.61,54.3,34.4,0,-9.67,3596.2,Am,Brazil,South America
+Palmas,26.9,1.4,59.2,12.5,-0.4,54.3,326.1,849,-10.17,3596.2,Aw,Brazil,South America
+Porto Alegre,23.2,2.8,76.7,7.2,-0.04,114.1,30.4,3,-30.03,3596.2,Cfa,Brazil,South America
+Rio Branco,26.1,1.4,82.4,8.5,-0.55,55.7,146.3,896,-9.98,3596.2,Am,Brazil,South America
+Sao Luis,27,0.4,79.5,2.4,-0.47,92.7,12.2,1,-2.53,3596.2,Aw,Brazil,South America
+Salvador,26.3,0.7,80.3,4,-0.5,57.1,40.6,2,-13.01,3596.2,Af,Brazil,South America
+Santa Maria,22.7,3.1,75.5,9.5,-0.14,109.7,374.9,243,-29.68,3596.2,Cfa,Brazil,South America
+Sao Paulo,21.9,2.1,81.3,6.2,-0.48,68.5,753.2,49,-23.55,3596.2,Cfa,Brazil,South America
+Teresópolis,23.4,2.1,82.4,6.5,-0.6,67.4,954.1,32,-22.42,3596.2,Cfa,Brazil,South America
+Vitoria,25.3,1.1,83.3,4,-0.21,68.6,12.2,0,-20.32,3596.2,Aw,Brazil,South America
+Abbotsford,13.8,3.9,76.6,9.2,-0.49,366.4,44.5,35,49.05,22109.6,Cfb,Canada,North America
+Calgary,11.9,5.5,62.8,14.7,-0.21,346.1,1056.4,656,51.05,22109.6,Dfc,Canada,North America
+Edmonton,12.2,5.7,66.5,12.5,-0.09,373.2,659.2,792,53.55,22109.6,Dfb,Canada,North America
+Halifax,14.3,4.5,79.5,10.2,0.19,371.8,20.3,2,44.65,22109.6,Dfb,Canada,North America
+Hamilton,17.1,5.2,72.2,8.9,0.16,763.6,208.3,523,43.26,22109.6,Dfb,Canada,North America
+Kingston,16.9,5.2,76.2,8.7,0.11,461.4,81,424,44.23,22109.6,Dfb,Canada,North America
+Kitchener-Waterloo,15.7,5.5,72.6,10.5,-0.02,455.4,325.4,569,43.45,22109.6,Dfb,Canada,North America
+London Ontario,16.6,5.5,72.8,9.8,0.07,974.2,277.5,564,43.03,22109.6,Dfb,Canada,North America
+Montreal,16.4,5.6,71.9,10.1,0.01,406.7,10.2,236,45.51,22109.6,Dfb,Canada,North America
+Niagara,17.6,5.2,73,8.6,0.13,974.2,174.6,466,43.08,22109.6,Dfb,Canada,North America
+Oakville,16.7,5.3,72.3,9.2,0.11,455.4,78.5,531,43.45,22109.6,Dfb,Canada,North America
+Oshawa,16.4,5.4,72,10.2,-0.01,363.2,95.2,522,43.9,22109.6,Dfb,Canada,North America
+Ottawa,15.5,5.6,73.2,10.8,-0.01,406.7,78.9,382,45.42,22109.6,Dfb,Canada,North America
+Regina,13.4,6.4,64.9,13.1,-0.15,323.7,577.4,1054,50.46,22109.6,Dfb,Canada,North America
+Sarnia,17.6,5.4,72.7,8.5,0.1,974.2,188.1,630,43,22109.6,Dfb,Canada,North America
+Sudbury,14.4,5.6,74.4,11.2,0.04,401.3,247,546,46.29,22109.6,Dfb,Canada,North America
+Saint John NB,12.7,3.6,82.6,9.6,0.33,396.5,27.1,4,45.27,22109.6,Dfb,Canada,North America
+St. John's NFL,11.2,4.6,83.5,8.4,0.08,353.4,92.9,2,47.56,22109.6,Dfb,Canada,North America
+Sault Ste. Marie,14.1,5.3,77.6,8.8,0.13,371.6,210.8,595,46.53,22109.6,Dfb,Canada,North America
+Saskatoon,13.2,6.3,63.8,12.7,-0.13,356.3,500.6,1039,52.13,22109.6,Dfb,Canada,North America
+Thunder Bay,12.8,5.7,76.1,9.9,0,383.6,181.6,689,48.41,22109.6,Dfb,Canada,North America
+Toronto,16.6,5.4,72.3,9.8,0.01,463.8,79.5,526,43.65,22109.6,Dfb,Canada,North America
+Victoria,12.8,2.1,83.7,5.2,-0.05,383.6,0.8,0,48.43,22109.6,Csb,Canada,North America
+Vancouver,14.2,3.7,77.2,8.6,-0.56,384,34.3,0,49.25,22109.6,Cfb,Canada,North America
+Windsor,18.7,5.5,71.2,9,0.03,531,183.3,633,42.31,22109.6,Dfa,Canada,North America
+Winnipeg,14.4,6.5,68.8,11.4,-0.15,408.3,231.6,833,49.88,22109.6,Dfb,Canada,North America
+Chillan,17.1,2.9,67.9,8.7,-0.45,336.1,118.9,73,-36.61,10217.3,Csb,Chile,South America
+Santiago,19.6,2.8,58,9.4,-0.43,214.5,579.5,87,-33.45,10217.3,Csb,Chile,South America
+Temuco,13.9,2.9,77.4,7.1,-0.38,393.3,163.5,68,-38.74,10217.3,Cfb,Chile,South America
+Valparaiso,16.1,1.6,77.9,6.4,-0.19,202.9,119.2,0,-33.05,10217.3,Csb,Chile,South America
+Hong Kong,26.6,2.3,84.8,5.4,-0.35,1450.3,41.2,0,22.28,1740.1,Cwa,China,East Asia
+Lanzhou,16.9,4.8,54.2,16,-0.19,397.5,1676.3,1248,36.06,1740.1,BSk,China,East Asia
+Shenyang,19.6,6,67.5,14.1,0.29,700.5,44.6,152,41.8,1740.1,Dwa,China,East Asia
+Suzhou,24.3,4.4,78,8.2,0.06,948.4,7.4,58,31.3,1740.1,Cfa,China,East Asia
+Taiyuan,19.1,5.3,61.4,16,-0.1,418.1,796.9,440,37.87,1740.1,Dwa,China,East Asia
+Tianjin,22.7,5.3,64.6,15.3,0.13,562.3,5.5,44,39.13,1740.1,Dwa,China,East Asia
+Xian,22.8,5,64.9,14.7,-0.25,667.2,393.4,910,34.27,1740.1,Cwa,China,East Asia
+Bogota,15.7,1,75.1,11.8,-0.86,729.4,2549.2,325,4.71,3709.1,Cfb,Colombia,South America
+Barranquilla,27.3,0.7,84.7,2.3,-0.66,717.6,37.7,13,10.92,3709.1,Aw,Colombia,South America
+Cali,21.7,0.7,83,2.9,-0.68,768.9,1038.1,76,3.38,3709.1,Af,Colombia,South America
+Cartagena,27.3,0.7,86,2,-0.48,783.4,7,1,10.45,3709.1,Aw,Colombia,South America
+Medellin,17.2,0.7,83.7,5.6,-0.64,910.1,2043.3,188,6.22,3709.1,Af,Colombia,South America
+San José,21.6,0.7,89.8,4.1,-0.62,828.7,637.2,11,9.63,6900,Am,Costa Rica,Central America
+Brno,15.4,4.9,69.5,10.2,-0.3,408.4,244.3,443,49.2,11667,Cfb,Czech Republic,Central Europe
+Ostrava,14.9,4.8,74.2,9.7,-0.24,548.8,234.7,495,49.82,11667,Cfb,Czech Republic,Central Europe
+Prague,15.3,4.8,71.6,10.4,-0.49,414.5,257,390,50.08,11667,Cfb,Czech Republic,Central Europe
+South Bohemia,14.9,4.8,72.2,9.8,-0.27,446.3,402.5,351,48.95,11667,Cfb,Czech Republic,Central Europe
+Guayaquil,24.2,1.2,83.4,3,0.11,201.1,5.6,2,-2.2,6050,Aw,Ecuador,South America
+Quito,12.9,0.8,76.4,8.2,-0.67,179.1,2626.4,149,-0.18,6050,Cfb,Ecuador,South America
+Kohtla-Järve linn,10.4,7.6,74.5,10.8,-0.12,388.3,74.8,4,59.36,16586,Dfb,Estonia,North Europe
+Narva linn,10.5,7.6,75.1,10.8,-0.08,406.7,28.5,8,59.37,16586,Dfb,Estonia,North Europe
+Pärnu linn,13,5.2,75.1,11.3,-0.09,437,8.2,2,58.39,16586,Dfb,Estonia,North Europe
+Tallinn,6.8,8.6,77.4,10.7,-0.35,307.4,45.6,6,59.44,16586,Dfb,Estonia,North Europe
+Tartu linn,13,5.2,74.7,10.5,-0.04,423.4,54.6,117,58.37,16586,Dfb,Estonia,North Europe
+Helsinki,12.6,5,76.9,11.7,-0.3,418.5,2.3,1,60.17,32816.2,Dfb,Finland,North Europe
+Bordeaux,18.5,3.9,72.1,10.4,-0.49,371.8,11.3,23,44.83,36544.6,Cfb,France,Central Europe
+Clermont-Ferrand,14.7,4.3,76.1,9.7,-0.49,545.1,639.9,259,45.78,36544.6,Cfb,France,Central Europe
+Dijon,6.7,5.6,79,11.1,-0.41,500.1,240.8,404,47.32,36544.6,Cfb,France,Central Europe
+Grenoble,13.5,4.8,75.4,9.4,-0.33,761,296.7,204,45.17,36544.6,Cfb,France,Central Europe
+Le Havre,15.1,3,80.2,6.6,-0.09,460.3,1.7,1,49.5,36544.6,Cfb,France,Central Europe
+Lille,15.3,3.6,77.7,8,-0.32,391.2,29.5,67,50.63,36544.6,Cfb,France,Central Europe
+Lens-Douai ,15.3,3.7,77.4,8.1,-0.36,387.7,46.7,81,50.4,36544.6,Cfb,France,Central Europe
+Lyon,17.3,4.4,71.2,10.4,-0.52,548.7,186.9,255,45.75,36544.6,Cfb,France,Central Europe
+Montpellier,20,3.2,70.7,11.8,-0.14,317.2,6.3,8,43.6,36544.6,Csa,France,Central Europe
+Marseille,19.8,3.3,72.4,10,-0.13,248.8,26.7,3,43.3,36544.6,Csa,France,Central Europe
+Nice,18.7,3.4,77.6,8.8,-0.05,373.3,116.7,2,43.7,36544.6,Csb,France,Central Europe
+Nancy,15.8,4.5,74.1,11,-0.54,457.1,246.6,327,48.68,36544.6,Cfb,France,Central Europe
+Nantes,16.5,3.6,76.7,9.4,-0.36,341,18.4,37,47.22,36544.6,Cfb,France,Central Europe
+Paris,16.1,4,75.1,9.4,-0.46,370.6,44.8,144,48.87,36544.6,Cfb,France,Central Europe
+Rennes,15.8,3.4,77.6,8.5,-0.31,350,31.6,53,48.08,36544.6,Cfb,France,Central Europe
+Rouen,15.1,3.6,79.4,8,-0.36,412.9,63.6,46,49.43,36544.6,Cfb,France,Central Europe
+Strasbourg,16.4,4.5,73.1,10.4,-0.53,509,141.9,394,48.58,36544.6,Cfb,France,Central Europe
+Toulouse,18.8,4.1,71.1,9.1,-0.44,393,185.2,143,43.6,36544.6,Cfb,France,Central Europe
+Berlin,15.5,4.6,72.4,11,-0.52,366.4,45.2,145,52.52,35240,Cfb,Germany,Central Europe
+Bremen,14.8,4.1,76.6,9.3,-0.41,426.2,4.8,36,53.07,35240,Cfb,Germany,Central Europe
+Dresden,14.4,4.6,75.2,10.4,-0.49,485.2,152.6,285,51.05,35240,Cfb,Germany,Central Europe
+Dortmund,14.9,4.3,76.5,10.2,-0.48,500.1,149.4,166,51.51,35240,Cfb,Germany,Central Europe
+Dusseldorf,15.5,4.2,75.8,10,-0.47,485.1,40.2,161,51.22,35240,Cfb,Germany,Central Europe
+Frankfurt,16,4.6,71.2,11.2,-0.55,366.4,127.1,337,50.11,35240,Cfb,Germany,Central Europe
+Hamburg,14.6,4.1,77.1,9.5,-0.43,440.1,10.5,13,53.55,35240,Cfb,Germany,Central Europe
+Hannover,14.9,4.3,75.2,9.6,-0.47,420,57.5,127,52.37,35240,Cfb,Germany,Central Europe
+Koeln,15.4,4.3,75.2,10.5,-0.49,478,52.6,182,50.93,35240,Cfb,Germany,Central Europe
+Leipzig,15.5,4.6,72.5,10.3,-0.51,389.1,118.9,295,51.34,35240,Cfb,Germany,Central Europe
+Muenchen,15.1,4.7,74.8,9.8,-0.52,580.4,533,283,48.14,35240,Cfb,Germany,Central Europe
+Stuttgart,15.2,4.6,73.8,10.3,-0.52,468.9,296,436,48.78,35240,Cfb,Germany,Central Europe
+Athens,23.7,4.1,54.5,11,-0.67,87.1,52.7,6,37.98,22252,Csa,Greece,South Europe
+Guatemala,21.3,1.2,72.1,7.4,-0.69,235,1518.8,76,14.63,4140,Cwb,Guatemala,Central America
+Mashhad,20,5.1,39.4,14.2,-0.55,55.4,1043.5,1046,36.26,5437.8,BSk,Iran,Middle-East Asia
+Tehran,21.1,5.3,31.3,12.7,-0.7,72.6,1239.5,612,35.72,5437.8,Csa,Iran,Middle-East Asia
+East of Northern Ireland,12.9,2.9,81,6.8,-0.05,386.5,92.7,28,53.88,20852.3,Cfb,Ireland,North Europe
+"NorthEast of the 
+Republic of Ireland",12.9,2.9,81.1,7,-0.04,363.1,110.9,79,52.88,20852.3,Cfb,Ireland,North Europe
+"NorthWest of the 
+Republic of Ireland",12.3,2.8,83,6.3,0.02,350.4,199.3,24,54.78,20852.3,Cfb,Ireland,North Europe
+"SouthEast of 
+Republic of Ireland",12.9,2.7,81.8,6.4,0.09,390.5,58.9,6,53.37,20852.3,Cfb,Ireland,North Europe
+"SouthWest of the 
+Republic of Ireland",12.7,2.6,83.5,6.4,0.18,360,190,10,52.32,20852.3,Cfb,Ireland,North Europe
+West of Northern Ireland,13,2.9,80.8,6.6,-0.02,343.3,18.5,40,54.5,20852.3,Cfb,Ireland,North Europe
+Ancona,21.4,4,69.1,9.9,-0.42,292.2,24.3,2,43.62,33426.2,Cfa,Italy,South Europe
+Bari,21.3,4.4,71.2,7.6,-0.28,184.5,11.1,2,41.13,33426.2,Cfa,Italy,South Europe
+Bologna,20.8,4.6,65.7,12.2,-0.58,384.8,131.6,69,44.51,33426.2,Cfa,Italy,South Europe
+Catania,22.9,3.8,67,10.5,-0.61,192,32.8,0,37.51,33426.2,Csa,Italy,South Europe
+Cagliari,21.7,3.5,69.2,8.6,-0.45,136.8,1,4,39.25,33426.2,Csa,Italy,South Europe
+Civitavecchia,21.1,3,79.1,8.3,0.1,289.7,4.5,2,42.09,33426.2,Csa,Italy,South Europe
+Florence,19.3,4.1,71.1,9.7,-0.49,392.7,57.2,73,43.78,33426.2,Cfb,Italy,South Europe
+Frosinone,16.4,4.1,73.2,9.7,-0.53,415.3,518.1,48,41.66,33426.2,Cfa,Italy,South Europe
+Genoa,17.6,3.6,77.1,10.4,-0.22,607.2,15.3,0,44.41,33426.2,Csb,Italy,South Europe
+Latina,20.8,3.6,76,7.2,-0.46,366.9,17.6,11,41.47,33426.2,Csa,Italy,South Europe
+Milan,20.2,4.6,68.2,12.1,-0.51,630.1,119.1,122,45.47,33426.2,Cfa,Italy,South Europe
+Naples,21.6,3,76.6,8.4,0.04,321,0.8,0,40.85,33426.2,Csa,Italy,South Europe
+Palermo,22.2,3.8,66.5,11,-0.61,215.8,34.6,1,38.12,33426.2,Csa,Italy,South Europe
+Rieti,18.2,4.2,69.1,10.8,-0.63,392.3,547.4,83,42.4,33426.2,Cfa,Italy,South Europe
+Rome,21.2,3.9,70,9.3,-0.54,338.8,46.4,25,41.9,33426.2,Csa,Italy,South Europe
+Trieste,18.4,4,74.8,8.3,-0.16,801.1,74.5,2,45.63,33426.2,Cfb,Italy,South Europe
+Turin,19.2,4.5,67.8,12,-0.48,502.9,337.9,106,45.07,33426.2,Cfb,Italy,South Europe
+Viterbo,20,4,71.7,10.8,-0.49,375.9,514.5,38,42.42,33426.2,Csa,Italy,South Europe
+Aichi,22.9,4.4,73,9.7,0.06,997.1,5.8,11,35.18,31013.6,Cfa,Japan,East Asia
+Akita,19,4.5,79.4,8.3,0.29,1038.9,5.5,1,39.72,31013.6,Cfa,Japan,East Asia
+Aomori,17.5,4.8,78.4,8.8,0.24,788.4,45.3,5,40.82,31013.6,Cfa,Japan,East Asia
+Chiba,21.6,3.6,81.9,7.1,0.28,1073.3,18.5,0,35.61,31013.6,Cfa,Japan,East Asia
+Ehime,22.1,3.9,76.7,8.6,0.18,1157.4,12.5,10,33.84,31013.6,Cfa,Japan,East Asia
+Fukushima,18.5,4.7,78.7,9.6,0.12,916.7,137.6,39,37.75,31013.6,Dfb,Japan,East Asia
+Fukuoka,23.1,4.1,76.1,9.2,0.15,1218,2.2,2,33.61,31013.6,Cfa,Japan,East Asia
+Fukui,20.6,4.3,77.5,7.9,0.15,1231.2,16.4,12,36.07,31013.6,Cfa,Japan,East Asia
+Gifu,21.4,4.2,75.8,10.3,0.14,1603.2,7.1,36,35.39,31013.6,Cfa,Japan,East Asia
+Gunma,19.5,4.3,75.9,10.1,0.07,1110.8,107.2,101,36.39,31013.6,Cfa,Japan,East Asia
+Hokkaido,15.3,4.8,80.4,7.7,0.33,770.2,189.5,11,43.06,31013.6,Dfb,Japan,East Asia
+Hiroshima,21.6,4.3,74,10.2,0.14,1085.4,13.7,3,34.4,31013.6,Cfa,Japan,East Asia
+Hyogo,23.3,4.1,73.6,8,0.17,1050.9,214.6,1,34.69,31013.6,Cfa,Japan,East Asia
+Ibaraki,21,3.7,80.4,8.6,0.37,972.8,26.2,14,36.34,31013.6,Cfa,Japan,East Asia
+Ishikawa,20,4.7,76.6,9.3,-0.05,1280.9,40.5,2,36.59,31013.6,Cfa,Japan,East Asia
+Iwate,16,4.8,80.5,8.9,0.17,725.4,142.5,64,39.7,31013.6,Dfb,Japan,East Asia
+Kagawa,22.5,3.9,75.2,8.9,0.27,985,41.1,6,34.34,31013.6,Cfa,Japan,East Asia
+Kagoshima,24.2,3.5,78.3,8.4,0.22,1417.6,16.7,1,31.56,31013.6,Cfa,Japan,East Asia
+Kumamoto,22.6,3.7,76.7,9.3,0.2,1253.9,24,8,32.79,31013.6,Cfa,Japan,East Asia
+Kanagawa,22.2,3.7,79.5,7.3,0.33,930.7,20.3,3,35.45,31013.6,Cfa,Japan,East Asia
+Kochi,22.7,3.5,79,8.8,0.32,1788.2,32.1,7,33.56,31013.6,Cfa,Japan,East Asia
+Kyoto,21.7,4.4,75.3,9.2,0.08,1109.3,176.2,47,35.02,31013.6,Cfa,Japan,East Asia
+Mie,22.1,4,77.6,8.7,0.21,1302.5,33.8,2,34.73,31013.6,Cfa,Japan,East Asia
+Miyagi,18.8,4.5,80.1,9.1,0.22,890.1,54.1,10,38.27,31013.6,Cfa,Japan,East Asia
+Miyazaki,23.9,3.1,79.2,9,0.32,1431.2,52.5,2,31.91,31013.6,Cfa,Japan,East Asia
+Nagano,17.8,4.7,77.7,9.4,-0.03,1106.6,570.7,48,36.65,31013.6,Dfb,Japan,East Asia
+Nara,23.4,4.5,69.8,9.6,-0.01,865.4,78.3,32,34.69,31013.6,Cfa,Japan,East Asia
+Nagasaki,22.9,3.2,81.8,10.3,0.33,1378.5,138.8,0,32.74,31013.6,Cfa,Japan,East Asia
+Niigata,21,4.3,78.6,7.7,0.33,907.6,2.3,1,37.9,31013.6,Cfa,Japan,East Asia
+Oita,22.8,4,76.8,8.9,0.05,1152.8,96.6,6,33.24,31013.6,Cfa,Japan,East Asia
+Okinawa,26.4,1.8,82.3,7.8,0.09,1016,2,2,26.21,31013.6,Cfa,Japan,East Asia
+Okayama,23.5,4.4,70.7,10,0.09,885.2,7.3,9,34.66,31013.6,Cfa,Japan,East Asia
+Osaka,23.5,4.3,70.9,8.9,0.06,961.4,2.7,5,34.69,31013.6,Cfa,Japan,East Asia
+Saga,23,4,77.6,9.1,0.22,1306.8,0.5,3,33.25,31013.6,Cfa,Japan,East Asia
+Saitama,22.4,4.2,76.6,7.9,0.1,940.8,12.1,29,35.86,31013.6,Cfa,Japan,East Asia
+Shiga,21.7,4.4,75.3,9.2,0.08,1109.3,226.3,53,35,31013.6,Cfa,Japan,East Asia
+Shimane,21.7,3.8,78.7,8.7,0.32,917.3,22.4,8,35.47,31013.6,Cfa,Japan,East Asia
+Shizuoka,21.5,3.4,80.9,8,0.37,1576.9,41.7,6,34.98,31013.6,Cfa,Japan,East Asia
+Tochigi,21.5,4.4,76.2,9.2,0.1,932.3,112.2,65,36.57,31013.6,Cfa,Japan,East Asia
+Tokushima,22.2,3.7,77,9.2,0.3,1430.1,36.4,0,34.07,31013.6,Cfa,Japan,East Asia
+Tokyo,22.4,4.2,76.6,7.9,0.1,940.8,47,7,35.69,31013.6,Cfa,Japan,East Asia
+Toyama,20.8,4.5,76.1,8.9,0.01,1239.5,10.2,5,36.7,31013.6,Cfa,Japan,East Asia
+Tottori,21.6,4.3,76.7,8,0.17,1048.2,64.1,5,35.5,31013.6,Cfa,Japan,East Asia
+Wakayama,22.8,3.9,75,9,0.24,1062.6,1.7,2,34.23,31013.6,Cfa,Japan,East Asia
+Yamaguchi,22.4,4.2,75,10,0.14,1148.9,289,16,34.19,31013.6,Cfa,Japan,East Asia
+Yamagata,17.9,4.8,80.5,8.6,0.12,791.3,189.1,44,38.24,31013.6,Dfa,Japan,East Asia
+Yamanashi,17,4.3,75.4,11,0,1044.4,262.6,63,35.66,31013.6,Dfb,Japan,East Asia
+Kuwait,33.6,3.6,33.8,12.5,-0.66,4.1,5.5,0,29.38,30410,BWh,Kuwait,Middle-East Asia
+Ciudad Juarez,24.9,4.5,38.7,17.3,-0.4,25.5,1120.7,581,31.69,8666.3,BWk,Mexico,Central America
+Comarca Lagunera,22.8,2.6,50.5,13.8,-0.72,5,1728,406,24.22,8666.3,BSh,Mexico,Central America
+Guadalajara,21.8,1.9,66.1,15.5,-0.67,17.1,1577.4,202,20.66,8666.3,Cwa,Mexico,Central America
+Leon,19.7,2.1,61.9,15,-0.65,11.1,1847.8,341,21.13,8666.3,Cwb,Mexico,Central America
+Monterrey,25.8,3.1,66.9,11.7,-0.69,3.4,517.2,255,25.69,8666.3,BSh,Mexico,Central America
+Puebla-Tlaxcala,18.5,1.3,68.4,10.4,-0.54,28.5,2150.1,201,19.04,8666.3,Cwb,Mexico,Central America
+San Luis Potosi,19,2.1,69.1,10.4,-0.65,7.9,1902.8,323,22.16,8666.3,BSk,Mexico,Central America
+Tijuana,18.9,2.4,76.5,7.2,-0.15,41.7,85.9,12,32.52,8666.3,BSk,Mexico,Central America
+Toluca de Lerdo,13.6,1.2,76.3,10.7,-0.49,28.5,2637.3,259,19.28,8666.3,Cwb,Mexico,Central America
+Valley of Mexico,18.2,1.7,65.2,9.3,-0.63,26,2287.4,219,19.67,8666.3,Cwb,Mexico,Central America
+Anenii Noi,17.9,5.2,67.7,10.9,-0.41,322.4,124.8,110,47.03,950.6,Cfb,Moldova,Central Europe
+Cahul,19.3,5.1,66.2,9.8,-0.32,280.9,1.8,85,45.51,950.6,Cfb,Moldova,Central Europe
+Chisinau,18.1,5.1,65.9,10.8,-0.28,328.4,128.3,122,46.58,950.6,Cfb,Moldova,Central Europe
+Falesti,17.6,5,66.4,11.1,-0.24,405.6,151.1,231,47.75,950.6,Dfb,Moldova,Central Europe
+Amsterdam,14.6,4,78.3,8.4,-0.14,436.8,3.4,3,52.37,41577,Cfb,Netherland,North Europe
+Den Haag,14.6,3.9,78,7.9,-0.07,414.3,1.6,3,52.07,41577,Cfb,Netherland,North Europe
+Eindhoven,15.2,4.3,74.2,9.9,-0.26,419.9,18.9,69,51.44,41577,Cfb,Netherland,North Europe
+Rotterdam,14.7,4,78,8.1,-0.12,427.7,1.7,20,51.92,41577,Cfb,Netherland,North Europe
+Utrecht,15,3.7,79.4,8.2,-0.33,435.7,2.3,24,52.09,41577,Cfb,Netherland,North Europe
+Oslo,12,4.9,72.5,12.9,-0.12,544.7,9.4,2,59.91,66675,Dfb,Norway,North Europe
+Panama,26.2,0.6,86.4,3.5,-0.67,1025.5,0.1,0,8.98,14360,Am,Panama,Central America
+Asuncion,19.6,4.9,74.6,10.9,-0.24,91.9,93.5,810,-25.3,5260,Cfa,Paraguay,South America
+Apurimac,7.4,1.2,66.9,10,0.04,46.9,3991.7,244,-14,5869,ET,Peru,South America
+Arequipa,12.9,1.1,40.6,17.8,0,47,2469.8,88,-16.4,5869,BWk,Peru,South America
+Ayacucho,8.7,1.1,70.4,7.1,0.13,48.3,2726.8,218,-13.16,5869,Cwb,Peru,South America
+Cajamarca,12,0.7,72.8,9.4,-0.5,48.9,2938.3,116,-7.16,5869,BSk,Peru,South America
+Cusco,8.1,1.2,65.4,8.5,-0.09,48.9,3513.9,344,-13.52,5869,Cfb,Peru,South America
+Huancavelica,3.6,1.1,76.2,9.6,0.1,52.5,4053.3,146,-12.78,5869,ET,Peru,South America
+Huánuco,11.3,1,71.8,5.6,-0.19,52.3,2257.2,196,-9.93,5869,Cfb,Peru,South America
+Ica,19.7,1.1,60.4,4.7,-0.23,46.9,446.7,49,-14.07,5869,BWk,Peru,South America
+Junín,3.5,1,79.3,7.4,0.06,53,4308.6,141,-11.16,5869,ET,Peru,South America
+Lima,19,1.9,79.4,5.1,0.58,49.6,149,13,-12.04,5869,BWh,Peru,South America
+La Libertad,11,0.8,80.2,10.1,-0.11,48.8,3416.2,58,-8,5869,BWh,Peru,South America
+Lambayeque,22,2.3,80.2,2.6,-0.49,59.5,22.1,11,-6.7,5869,BWh,Peru,South America
+Loreto,25.4,1.1,88.6,3.7,-0.65,49.4,122.6,601,-4,5869,Af,Peru,South America
+Piura,24.2,2.2,69.6,4.4,-0.53,104.1,35.2,46,-5.19,5869,BWh,Peru,South America
+Puno,7.7,1.4,52.8,14.9,0.15,45.3,3920.9,228,-15.84,5869,ET,Peru,South America
+San Martin,24.3,0.9,86.6,4.2,-0.84,65,552,356,-6.58,5869,Af,Peru,South America
+Tacna,19.5,1,71.8,5,0.08,61.8,893.9,36,-18.01,5869,BWh,Peru,South America
+Ucayali,26.3,1.1,86.7,4.5,-0.84,48.6,152.4,440,-8.59,5869,Am,Peru,South America
+Bacoor,27.4,1.4,74.3,5.3,-0.36,257.3,2,0,14.45,1929.1,Aw,Philippines,South-East Asia
+Cebu,26.4,0.7,82.5,3.2,-0.29,869,63.1,1,10.32,1929.1,Am,Philippines,South-East Asia
+Callocan,27.4,1.6,76.6,4.5,-0.41,382.9,5.7,4,14.65,1929.1,Am,Philippines,South-East Asia
+Davao,26.5,0.6,82.5,3.5,-0.78,1135.6,21.8,3,7.07,1929.1,Af,Philippines,South-East Asia
+Las Pinas,27.4,1.6,76.6,4.5,-0.41,382.9,33,4,14.63,1929.1,Af,Philippines,South-East Asia
+Makati,27.1,1,76.3,5.3,-0.05,398.3,1.7,4,14.56,1929.1,Af,Philippines,South-East Asia
+Manila,27.8,1.6,73.4,5.2,-0.44,286.9,1.7,4,14.58,1929.1,Af,Philippines,South-East Asia
+Muntinlupa,27.1,1,76.3,5.3,-0.05,398.3,32.3,10,14.41,1929.1,Am,Philippines,South-East Asia
+Pasig,27.1,1,78.5,5.3,0.14,666.6,33,14,14.59,1929.1,Af,Philippines,South-East Asia
+Quezon,27.1,1.4,77,4.4,-0.37,293.9,52.9,8,14.68,1929.1,Af,Philippines,South-East Asia
+Taguig,27.1,1,78.5,5.3,0.14,666.6,15.4,13,14.52,1929.1,Af,Philippines,South-East Asia
+Valenzuela,28.1,1.3,79.9,6.7,-0.72,1468.3,8.8,8,14.7,1929.1,Am,Philippines,South-East Asia
+Zamboanga,26.3,0.6,84.7,2.7,-0.76,1227.2,0.5,0,6.9,1929.1,Aw,Philippines,South-East Asia
+Beja,19.7,5.4,60.5,13,-0.7,89.1,206.1,79,38.02,12185,Csa,Portugal,South Europe
+Coimbra,17.4,4.4,72.2,11.8,-0.41,276.9,62.9,35,40.21,12185,Csb,Portugal,South Europe
+Castelo Branco,19.2,5.9,59.6,14.8,-0.68,149.6,263.5,117,39.82,12185,Csa,Portugal,South Europe
+Faro,18.6,3.5,72.7,8.6,-0.31,81.4,18.2,0,37.02,12185,Csa,Portugal,South Europe
+Lisboa,17.4,3.4,75.6,8.6,-0.2,178.8,25.6,0,38.72,12185,Csa,Portugal,South Europe
+Porto,16.9,3.5,78.9,8.7,-0.05,167.6,76.1,6,41.16,12185,Csb,Portugal,South Europe
+San Juan,26.3,1.2,79,4.5,0.02,33.6,2.1,0,18.47,30590,Am,Puertorico,Central America
+Bucharest,17.2,7.1,69.8,10.1,-0.35,411.7,74.4,196,44.43,7777.2,Cfa,Romania,Central Europe
+Brasov,12.8,6.6,75.2,9.4,-0.15,500.9,724.5,267,45.66,7777.2,Dfb,Romania,Central Europe
+Cluj-Napoca,13.4,6.4,73.9,9.3,-0.09,537,385.1,457,46.77,7777.2,Dfb,Romania,Central Europe
+Constanta,16.5,7,76.2,8.5,-0.3,229.3,22.4,4,44.16,7777.2,Cfa,Romania,Central Europe
+Craiova,20.3,5.3,64.1,11.9,-0.56,323.2,88.6,353,44.33,7777.2,Cfa,Romania,Central Europe
+Galati,19.3,5.1,67.2,10.2,-0.43,292.8,4.5,83,45.44,7777.2,Cfa,Romania,Central Europe
+Iasi,17.9,5.2,68.3,10.8,-0.4,374.9,116.5,213,47.16,7777.2,Dfb,Romania,Central Europe
+Timisoara,18.6,4.9,70,10,-0.48,391.2,86,406,45.75,7777.2,Cfb,Romania,Central Europe
+Alfred Nzo,10.5,4.3,58.4,14.5,-0.19,198.7,1804.3,133,-30.55,5414,Cfb,South Africa,South Africa
+Amajuba,14.1,4,56,14.8,-0.25,221.1,1226.8,207,-27.8,5414,Cwb,South Africa,South Africa
+Amathole,11.8,3.8,65.1,16.4,-0.36,286.6,1028.4,64,-32.58,5414,Cfb,South Africa,South Africa
+Buffalo City,16.9,2.8,69,13,-0.11,255.6,427.2,26,-32.93,5414,Cfb,South Africa,South Africa
+Bojanala,16.4,4.3,51,13.3,-0.33,111.5,1051.5,515,-25.38,5414,BSh,South Africa,South Africa
+Cacadu,14.7,3.9,57.6,14.8,-0.38,133.7,546.4,117,-33.04,5414,BSk,South Africa,South Africa
+Chris Hani,11.8,4.3,54.8,15.8,-0.37,183.6,1150.6,160,-31.87,5414,Cfb,South Africa,South Africa
+Central Karoo,14.7,4.4,51.9,14.1,-0.56,78.7,696.7,134,-32.81,5414,BWk,South Africa,South Africa
+City of Cape Town,14.4,1.6,79.4,8.1,0.1,465.5,1.9,1,-33.92,5414,Csb,South Africa,South Africa
+Capricorn,15,3.4,59.5,14.8,-0.25,90.5,1260.5,387,-23.88,5414,BSh,South Africa,South Africa
+Cape Winelands,10.8,3.8,68.3,13.7,-0.57,249.6,921.6,119,-33.42,5414,Csb,South Africa,South Africa
+City of Johannesburg,19.2,2.3,67.8,13.8,-0.48,678.1,1723.6,450,-26.2,5414,Cwb,South Africa,South Africa
+City of Tshwane,22.2,2.5,60.7,13.3,-0.6,532,1200.7,412,-25.61,5414,Cwa,South Africa,South Africa
+Dr Kenneth Kaunda,20.7,2.9,61.6,14.1,-0.51,539.1,1362.8,546,-26.86,5414,BSk,South Africa,South Africa
+"Dr Ruth Segomotsi 
+Mompati",22.1,3.2,55.4,16.3,-0.5,409.1,1330.4,743,-26.66,5414,BSh,South Africa,South Africa
+Eden,19.4,3.1,67.4,8.7,-0.25,230.6,438.6,44,-33.7,5414,BSk,South Africa,South Africa
+Ehlanzeni,22.5,2.5,73.6,8.2,-0.37,556.3,467.5,135,-25.39,5414,Cwa,South Africa,South Africa
+Ekurhuleni,19.2,2.3,67.8,13.6,-0.49,651,1636.5,420,-26.18,5414,Cwb,South Africa,South Africa
+eThekwini,22.4,2.4,79.8,5.5,0.13,586.6,37.7,3,-29.86,5414,Cfa,South Africa,South Africa
+Frances Baard,23,3.7,49.6,17.1,-0.54,370.6,1039.6,606,-28.43,5414,BSh,South Africa,South Africa
+Fezile Dabi,20.1,2.6,61.9,14,-0.48,584.7,1471.5,417,-27.39,5414,Cwa,South Africa,South Africa
+Gert Sibande,17.2,2.5,76.4,9.7,-0.4,699.1,1713.6,256,-26.55,5414,Cwb,South Africa,South Africa
+Greater Sekhukhune,21.5,2.4,66.8,10.4,-0.53,524.2,1315.9,282,-24.83,5414,BSh,South Africa,South Africa
+iLembe,22.8,2.2,79.6,5.6,0.17,647.9,354.9,9,-29.38,5414,Cfa,South Africa,South Africa
+Joe Gqabi,18.2,3.3,59.9,13.9,-0.42,542.8,1471.6,224,-30.99,5414,BSk,South Africa,South Africa
+John Taolo Gaetsewe,23.6,3,45.7,17,-0.36,349.1,1163.7,659,-27.22,5414,BSh,South Africa,South Africa
+Lejweleputswa,21.2,3.5,56.5,15.7,-0.56,465.1,1338.5,479,-28.4,5414,BSk,South Africa,South Africa
+Mangaung,21.4,3.2,51.6,16.3,-0.45,462.5,1361.3,407,-29.16,5414,BSk,South Africa,South Africa
+Mopani,25,2.9,64.6,11.8,-0.54,478.2,483.8,332,-23.31,5414,BSh,South Africa,South Africa
+Ngaka Modiri Molema,21.4,2.9,60.5,14.6,-0.56,446.4,1480.3,653,-26.03,5414,BSh,South Africa,South Africa
+Nkangala,18.9,2.3,70.2,11.7,-0.46,660.5,1589.9,290,-25.95,5414,Cwb,South Africa,South Africa
+Nelson Mandela Bay,20.4,2.8,71.7,8,0,299.8,131.6,13,-33.75,5414,Cfa,South Africa,South Africa
+Namakwa,22.3,4.3,40.7,13.5,-0.61,94.1,887.2,215,-30.42,5414,BWh,South Africa,South Africa
+O.R.Tambo,17.9,3.3,79.8,9.1,-0.38,831.9,956.7,73,-31.29,5414,Cfb,South Africa,South Africa
+Overberg,19.9,1.9,72.6,8,0.18,190.6,51.4,3,-34.49,5414,BSk,South Africa,South Africa
+Pixley ka Seme,24,3.9,39,15.7,-0.44,224.9,1051.2,418,-30.18,5414,BWh,South Africa,South Africa
+Sedibeng,19.8,2.4,67.3,12.8,-0.48,654.7,1531.9,427,-26.68,5414,Cwb,South Africa,South Africa
+Sisonke,16.8,3.2,76.3,11.3,-0.59,907.8,1283.6,112,-30.03,5414,Cfb,South Africa,South Africa
+Siyanda,25.3,3.7,35.8,14.9,-0.31,182.7,970.4,470,-28.04,5414,BWh,South Africa,South Africa
+Thabo Mofutsanyane,17.9,2.6,67.7,13,-0.42,713.6,1641.1,324,-28.13,5414,Cwb,South Africa,South Africa
+Ugu,20.8,2.8,79.4,7.5,-0.16,654.6,285.2,20,-30.62,5414,Cfa,South Africa,South Africa
+uMgungundlovu,18.6,3.3,80.6,8.9,-0.56,804.7,707.2,79,-29.51,5414,Cfb,South Africa,South Africa
+uMkhanyakude,24.7,2.2,75.4,6.5,-0.19,548.8,83.7,24,-27.27,5414,Aw,South Africa,South Africa
+uMzinyathi,20.6,3.3,70.1,10.5,-0.62,654.8,967.9,117,-28.52,5414,Cfb,South Africa,South Africa
+uThukela,19.9,2.9,70.3,9,-0.5,722.1,1109.1,181,-28.68,5414,Cwa,South Africa,South Africa
+uThungulu,21.8,2.9,76.8,8.1,-0.5,647.4,430.2,47,-28.62,5414,Cfa,South Africa,South Africa
+Vhembe,24,2.8,61.9,12.4,-0.6,362.1,677.8,421,-22.77,5414,BSh,South Africa,South Africa
+West Coast,17.6,1.7,79.4,8.7,-0.12,67.8,55.3,10,-32.86,5414,BSk,South Africa,South Africa
+West Rand,19.7,2.3,65.2,14.9,-0.5,664.8,1524.9,501,-26.32,5414,Cwb,South Africa,South Africa
+Waterberg,22.3,2.4,61.5,13.5,-0.59,450.8,1290.3,476,-23.97,5414,BSh,South Africa,South Africa
+Xhariep,22.3,3.4,46.6,16.8,-0.44,375,1266.4,454,-29.46,5414,BSk,South Africa,South Africa
+Zululand,21.9,2.9,75.3,7.7,-0.48,579.1,680.2,113,-27.89,5414,Cwb,South Africa,South Africa
+Andong,4.5,6,58.5,14.2,0.3,246.8,149.2,63,36.57,11255.94789,Dwa,South Korea,East Asia
+Boryeong,5.6,4.7,71.2,8.7,0.43,305.3,16.6,5,36.33,11255.94789,Cfa,South Korea,East Asia
+Busan,10.1,5.5,61.9,11,0.46,341.6,88.8,1,35.1,11255.94789,Cfa,South Korea,East Asia
+Chuncheon,2.1,7.1,66.7,12.8,0.36,245.8,114.8,80,37.9,11255.94789,Dwa,South Korea,East Asia
+Chungju,2.8,6.4,64.8,12.8,0.17,292.7,242.1,90,36.97,11255.94789,Dwa,South Korea,East Asia
+Cheonan,4.5,6.6,66.7,11,0.37,251,123.2,32,36.76,11255.94789,Dwa,South Korea,East Asia
+Daegu,5,5.9,58.2,14.6,0.3,260.3,57.5,62,35.88,11255.94789,Cwa,South Korea,East Asia
+Daejeon,4.9,6.4,66.1,10.9,0.35,261.1,65.9,54,36.37,11255.94789,Dfa,South Korea,East Asia
+Donghae,3.5,6.6,64.6,14.7,0.36,351.2,68.4,3,37.51,11255.94789,Dfa,South Korea,East Asia
+Geojae,8.4,5.8,65,11.2,0.56,319.5,117.4,0,34.89,11255.94789,Cfa,South Korea,East Asia
+Gangneung,5.4,5,63.8,11.7,0.33,400.3,172.3,2,37.75,11255.94789,Dfb,South Korea,East Asia
+Gumi,21.1,4.8,70.8,11.5,0.19,859.1,222.9,96,36.13,11255.94789,Dwa,South Korea,East Asia
+Gwangju,20.9,4.6,76.6,9.8,0.33,982.2,65.3,39,35.17,11255.94789,Cfa,South Korea,East Asia
+Icheon,20.5,4.8,73.4,10.7,0.3,989.5,80.9,57,37.26,11255.94789,Dwa,South Korea,East Asia
+Incheon,20.1,4.3,81,9.7,0.42,958.5,12.1,0,37.48,11255.94789,Cwa,South Korea,East Asia
+Jecheon,19,4.7,74.6,10.5,0.32,920.6,285.6,89,37.16,11255.94789,Dwa,South Korea,East Asia
+Jeju,21.5,3.8,81.7,9.1,0.35,933.3,11.1,3,33.51,11255.94789,Cfa,South Korea,East Asia
+Jinju,20.8,4.6,76.4,10.5,0.3,1135.4,58.9,13,35.16,11255.94789,Cwa,South Korea,East Asia
+Jeongeup,21.1,4.5,77.9,8.9,0.39,952.7,52.8,12,35.56,11255.94789,Cfa,South Korea,East Asia
+Milyang,21,4.5,72.7,12.3,0.29,902.7,164.3,33,35.49,11255.94789,Cwa,South Korea,East Asia
+Mungyeong,19.9,4.8,73.6,10.8,0.25,955.4,270.3,106,36.63,11255.94789,Dwa,South Korea,East Asia
+Mokpo,20.9,4,80.7,8.7,0.49,962.2,11.7,1,34.82,11255.94789,Cfa,South Korea,East Asia
+Namwon,19.8,4.6,75.6,10.9,0.32,982.8,156.5,52,35.42,11255.94789,Dfa,South Korea,East Asia
+Pohang,21.1,3.9,77.4,9.9,0.37,835.8,19.9,2,36.03,11255.94789,Cfa,South Korea,East Asia
+Seoul,20.6,4.8,75.9,10.5,0.31,991.1,42.9,11,37.57,11255.94789,Dwa,South Korea,East Asia
+Seosan,20.7,4.3,76.1,10.1,0.46,874.6,48.9,6,36.78,11255.94789,Cfa,South Korea,East Asia
+Seogyupo,21.8,3.8,80.2,9.4,0.39,1122.3,6.7,0,33.25,11255.94789,Cfa,South Korea,East Asia
+Sokcho,18.6,4.3,78.3,9.8,0.38,848.2,84.1,0,38.25,11255.94789,Dfa,South Korea,East Asia
+Suwon,20.7,4.7,75,10.8,0.36,912.4,59.1,13,37.26,11255.94789,Cwa,South Korea,East Asia
+Taebaek,17.6,4.9,76.8,12.4,0.08,913.4,970.3,28,37.17,11255.94789,Dwb,South Korea,East Asia
+Tongyeong,20.9,3.6,82.8,10.6,0.35,1052.3,33.3,1,34.85,11255.94789,Cwa,South Korea,East Asia
+Ulsan,21.4,4.2,75.6,10.6,0.37,929,51.3,7,35.58,11255.94789,Cfa,South Korea,East Asia
+Wonju,19.5,4.8,74,10.5,0.29,954.8,366.5,90,37.34,11255.94789,Dwa,South Korea,East Asia
+Yeosu,21.2,3.7,81.3,9.9,0.43,1094.2,18.6,0,34.74,11255.94789,Cwa,South Korea,East Asia
+Yoengcheon,20.4,4.8,72.7,12.8,0.12,862.1,101.2,34,35.98,11255.94789,Cwa,South Korea,East Asia
+Yeongju,20.2,4.8,72.5,10.9,0.22,847.7,671.6,81,36.87,11255.94789,Dwa,South Korea,East Asia
+A Coruna,16.5,2.6,81.6,6.5,-0.09,763.6,13,0,43.37,14787.8,Csb,Spain,South Europe
+Albacete,20.9,4.7,55,13.7,-0.62,268.9,692,141,38.98,14787.8,BSk,Spain,South Europe
+Alicante,22.8,3.1,69.9,8.6,-0.01,116.5,0,0,38.35,14787.8,BSk,Spain,South Europe
+Almeria,22.1,2.8,71.8,8.2,-0.18,85.8,1.5,0,36.82,14787.8,BSk,Spain,South Europe
+Avila,17.1,4.8,58.2,13.7,-0.75,346.5,1118.5,310,40.65,14787.8,Csb,Spain,South Europe
+Badajoz,22,4.5,55.2,13.8,-0.75,242.9,185.5,152,38.87,14787.8,Csa,Spain,South Europe
+Bilbao,16.9,2.9,80.4,6.8,0.09,763.6,184,10,43.25,14787.8,Cfb,Spain,South Europe
+Barcelona,20.2,3.3,78.2,6.5,-0.16,327.5,7.1,2,41.38,14787.8,Csa,Spain,South Europe
+Burgos,16.1,4.4,66.9,11.2,-0.62,531,904.1,122,42.33,14787.8,Csb,Spain,South Europe
+Cadiz,22,2.8,69.3,10.1,-0.46,80.9,1.2,0,36.52,14787.8,Csa,Spain,South Europe
+Caceres,22,4.9,52.3,15.2,-0.79,238.6,437.7,217,39.47,14787.8,Csa,Spain,South Europe
+Ciudad Real,21.9,5.2,48.8,15.7,-0.79,268.9,632.5,249,38.98,14787.8,Csa,Spain,South Europe
+Ceuta,20.3,2.1,83.1,7.4,0.05,83.6,3.9,0,35.88,14787.8,Csa,Spain,South Europe
+Cordoba,24.2,4.4,51.1,12.7,-0.68,108.8,134.1,135,37.87,14787.8,Csa,Spain,South Europe
+Castellon,21.8,3.2,74.8,8.7,0.07,198.9,22.9,2,39.98,14787.8,BSk,Spain,South Europe
+Cuenca,17.3,5,56.5,14.2,-0.73,346.5,1340.6,194,40.67,14787.8,Csb,Spain,South Europe
+Guadalajara,19.9,5.1,50.1,14.8,-0.77,346.5,845.2,265,40.63,14787.8,Csa,Spain,South Europe
+Girona,19.5,3.9,73.6,8.5,-0.43,539.6,110.5,29,41.98,14787.8,Cfa,Spain,South Europe
+Granada,19.2,4.6,54.2,13.1,-0.72,92,718.3,50,37.17,14787.8,Csa,Spain,South Europe
+Huelva,23.4,3.7,61.1,12.6,-0.65,92,3.6,3,37.25,14787.8,Csa,Spain,South Europe
+Huesca,18,4.5,63.9,11.2,-0.58,531,465.6,164,42.13,14787.8,Cfb,Spain,South Europe
+Jaen,21.2,4.5,55.3,12.4,-0.7,108.8,738,116,37.75,14787.8,Csa,Spain,South Europe
+Leon,17.2,4.5,60.9,11.6,-0.68,502.3,819,102,42.58,14787.8,Csb,Spain,South Europe
+Logrono,17.1,4,70.5,8.9,-0.46,502.3,420.4,89,42.45,14787.8,Cfb,Spain,South Europe
+Lleida,21.2,4.2,61.6,11.8,-0.34,247.9,170.2,70,41.62,14787.8,Cfa,Spain,South Europe
+Lugo,15.8,3.2,78.9,6.1,-0.36,974.2,456.4,65,43,14787.8,Csb,Spain,South Europe
+Malaga,21.2,3.2,67.8,10.5,-0.42,85.8,43.8,0,36.72,14787.8,Csa,Spain,South Europe
+Madrid,21.1,5.1,48.4,14.6,-0.78,377.9,610.7,304,40.4,14787.8,Csa,Spain,South Europe
+Melilla,23.4,3,67.7,10.5,-0.28,91.7,83.2,4,35.3,14787.8,Csa,Spain,South Europe
+Murcia,23.4,3.5,62.9,10.6,-0.23,121.3,109.3,32,37.98,14787.8,BSk,Spain,South Europe
+Ourense,16.3,3.7,74.1,9,-0.56,531,306.7,58,42.33,14787.8,Csb,Spain,South Europe
+Oviedo,14.6,3.2,83,6.6,-0.03,763.6,358.3,29,43.35,14787.8,Csb,Spain,South Europe
+Palmas G. Canaria,20.2,1.5,83.6,6.1,0.24,6.2,1.4,0,28.15,14787.8,BWh,Spain,South Europe
+Palma Mallorca,22.6,3.2,72.9,6.9,-0.17,167.2,24.7,5,39.57,14787.8,Csa,Spain,South Europe
+Palencia,17.9,4.6,59.4,12.1,-0.69,319.2,790.5,154,42.01,14787.8,Csb,Spain,South Europe
+Pamplona,16.8,4.1,73.5,8.8,-0.49,783.7,457.4,63,42.82,14787.8,Cfb,Spain,South Europe
+Pontevedra,17.4,2.8,77.4,8.8,-0.39,502.3,153.4,4,42.43,14787.8,Csb,Spain,South Europe
+Segovia,16.7,5,58.5,14.7,-0.76,239,1012.9,266,40.95,14787.8,Csb,Spain,South Europe
+Salamanca,17.8,4.6,58.5,13.3,-0.72,239,810.7,247,40.95,14787.8,Csb,Spain,South Europe
+San Sebastian,16.8,3.1,80.9,7.1,-0.01,763.6,71.8,3,43.32,14787.8,Cfb,Spain,South Europe
+Santander,17.9,2.7,80.4,6.2,0.07,455.4,10.9,0,43.45,14787.8,Cfb,Spain,South Europe
+Soria,16.6,4.9,60,12.8,-0.7,271.7,1054.6,167,41.77,14787.8,Cfb,Spain,South Europe
+Sevilla,24.2,4.2,53.8,13.4,-0.66,93.6,17.1,64,37.38,14787.8,Csa,Spain,South Europe
+Teruel,15.9,6.2,61.2,15.8,-0.75,292,1454.1,166,40.33,14787.8,Csb,Spain,South Europe
+Tenerife,20.3,1.6,80.8,5.6,0.27,5.4,10.7,6,28.47,14787.8,Csb,Spain,South Europe
+Toledo,20.6,4.9,53.5,14.6,-0.75,218.3,516.2,333,39.85,14787.8,Csa,Spain,South Europe
+Tarragona,21.5,3.2,72.6,9,-0.02,292.6,33.1,0,41.12,14787.8,Csa,Spain,South Europe
+Vitoria,16,3.8,77.2,8.1,-0.37,783.7,713.5,62,42.83,14787.8,Cfb,Spain,South Europe
+Valladolid,18.3,4.8,57.6,13.2,-0.72,271.7,713.2,199,41.65,14787.8,Csb,Spain,South Europe
+Valencia,22.3,3.4,69.1,10,-0.12,238.6,13.5,6,39.47,14787.8,Csa,Spain,South Europe
+Zamora,18.3,4.6,57.6,12.9,-0.7,212.5,676.2,223,41.48,14787.8,Csb,Spain,South Europe
+Zaragoza,21.7,4.7,55,11.6,-0.58,271.7,239.4,160,41.65,14787.8,BSk,Spain,South Europe
+Gothenburg,13.2,4,78.6,10.2,-0.29,574.2,29.1,3,57.7,29283,Cfb,Sweden,North Europe
+Malmo,14.2,3.8,77.1,8.7,-0.28,349.9,29.5,2,55.61,29283,Cfb,Sweden,North Europe
+Stockholm,12.8,4.5,77,10.3,-0.22,357.4,32.6,2,59.33,29283,Dfb,Sweden,North Europe
+Basel,13.8,6,77.9,9.7,-0.62,674.7,305.3,363,47.56,53256,Cfb,Switzerland,Central Europe
+Bern,15.2,4.5,74.6,9.1,-0.53,619.4,566.6,294,46.95,53256,Cfb,Switzerland,Central Europe
+Geneve,14.8,4.3,76.5,8.5,-0.47,760.3,408.3,280,46.2,53256,Cfb,Switzerland,Central Europe
+Lausanne,15.2,4.1,77.3,7.4,-0.3,684.5,566.5,283,46.52,53256,Cfb,Switzerland,Central Europe
+Lugano,16.4,4.1,72.7,10.9,-0.26,1013.2,454.2,175,46,53256,Dfc,Switzerland,Central Europe
+Luzern,13.6,4.2,77.6,8.6,-0.47,1120,552.5,299,47.05,53256,Cfb,Switzerland,Central Europe
+St. Gallen,15.1,4.4,76.6,8.1,-0.49,856.1,844.9,306,47.42,53256,Cfb,Switzerland,Central Europe
+ZÃ¼rich,15.3,4.5,75.2,9.5,-0.51,650.4,469.5,330,47.38,53256,Cfb,Switzerland,Central Europe
+Kaohsiung,27.8,1.5,81.2,4.8,-0.37,1577.3,0,1,22.63,17200,Am,Taiwan,East Asia
+Taipei,25.4,2.6,81.6,5.9,-0.36,1458.8,21.5,19,25.05,17200,Cfa,Taiwan,East Asia
+Taichung,25.3,1.8,80.3,5,-0.18,1648.1,64.3,22,24.15,17200,Cfa,Taiwan,East Asia
+Amnat Charoen,27.8,1.4,79.8,6.6,-0.66,1299.3,161.8,277,15.87,2643.5,Aw,Thailand,South-East Asia
+Ayutthaya,29.1,1.3,76.3,6.9,-0.8,1082.3,6,87,14.35,2643.5,Aw,Thailand,South-East Asia
+Bangkok,29.2,1.2,76.2,6,-0.81,980.7,6.8,23,13.75,2643.5,Aw,Thailand,South-East Asia
+Buri Ram,28.2,1.5,76.3,6.8,-0.77,1046.5,166.8,282,14.99,2643.5,Aw,Thailand,South-East Asia
+Chachoengsao,28.7,1.1,79.4,5.1,-0.79,1271,3.7,25,13.69,2643.5,Aw,Thailand,South-East Asia
+Chumphon,27,0.7,84.2,3,-0.82,899,31.3,3,10.49,2643.5,Am,Thailand,South-East Asia
+Chon Buri,28.7,1.1,78.8,5.3,-0.8,971.6,4.5,3,13.36,2643.5,Aw,Thailand,South-East Asia
+Chiang Mai,27.6,1.7,77.1,9.1,-0.86,1005.4,412.3,264,18.79,2643.5,Aw,Thailand,South-East Asia
+Chiang Rai,26.1,1.4,83.2,6,-0.65,1863.9,407.2,407,19.91,2643.5,Aw,Thailand,South-East Asia
+Chanthaburi,27.8,0.8,84.5,3.3,-0.69,2012.2,23,6,12.61,2643.5,Am,Thailand,South-East Asia
+Chaiyaphum,27.8,1.4,77.5,6.5,-0.73,1011.3,182.2,277,15.81,2643.5,Aw,Thailand,South-East Asia
+Khon Kaen,29.2,1.9,69.8,10.2,-0.72,781.9,176.9,375,16.44,2643.5,Aw,Thailand,South-East Asia
+Kalasin,28.7,1.9,72.3,10.3,-0.68,947.7,145,337,16.43,2643.5,Aw,Thailand,South-East Asia
+Kamphaeng Phet,29.6,1.7,72.5,10.6,-0.74,923.2,93.5,188,16.56,2643.5,Aw,Thailand,South-East Asia
+Kanchanaburi,29.4,1.7,69.6,9,-0.84,605.4,68.8,85,14.02,2643.5,Aw,Thailand,South-East Asia
+Krabi,27.6,0.9,84.9,5.1,-0.82,1417.1,22,4,8.06,2643.5,Am,Thailand,South-East Asia
+Lamphun,28.4,1.9,66.6,12.9,-0.64,696.4,291.3,249,18.58,2643.5,Aw,Thailand,South-East Asia
+Lampang,28.4,1.8,71.8,13.2,-0.7,891.4,237,268,18.29,2643.5,Aw,Thailand,South-East Asia
+Lop Buri,29.6,1.5,72.2,8.3,-0.82,795.6,13.5,132,14.8,2643.5,Aw,Thailand,South-East Asia
+Maha Sarakham,28.9,1.7,73.8,9.2,-0.86,1026.4,146.2,367,16.18,2643.5,Aw,Thailand,South-East Asia
+Mukdahan,27.7,2,78,10.6,-0.61,1142,153.1,230,16.55,2643.5,Aw,Thailand,South-East Asia
+Nan,27.5,1.7,75.5,11.5,-0.63,1095.3,223.3,408,18.78,2643.5,Aw,Thailand,South-East Asia
+Nong Bua Lam Phu,28.5,1.9,72.4,10.6,-0.66,890.1,238.9,400,17.19,2643.5,Aw,Thailand,South-East Asia
+Nakhon Ratchasima,29,1.6,69.6,8.2,-0.75,648.4,199.8,205,14.97,2643.5,Aw,Thailand,South-East Asia
+Nakhon Sawan,30.5,1.8,67.2,10.2,-0.81,744,29.9,237,15.69,2643.5,Aw,Thailand,South-East Asia
+Nakhon Phanom,26.7,1.8,82.2,10.2,-0.49,1779.7,147.5,160,17.41,2643.5,Aw,Thailand,South-East Asia
+Nakhon Pathom,29.7,1.6,69.5,7.7,-0.61,551.8,5.2,44,13.92,2643.5,Aw,Thailand,South-East Asia
+Nakhon Si Thammarat,27.6,0.8,79.6,4,-0.71,687.8,8.1,10,8.42,2643.5,Am,Thailand,South-East Asia
+Nong Khai,28.1,1.8,77.7,10.2,-0.55,1486.8,169.8,330,17.88,2643.5,Aw,Thailand,South-East Asia
+Nonthaburi,29.8,1.3,73.3,5.9,-0.78,651.3,6.1,33,13.86,2643.5,Aw,Thailand,South-East Asia
+Narathiwat,27.1,0.9,83,4,-0.65,901.2,43.5,31,6.2,2643.5,Am,Thailand,South-East Asia
+Phayao,27.8,1.7,71.8,11.1,-0.53,914.8,405,364,19.19,2643.5,Aw,Thailand,South-East Asia
+Phetchabun,27.2,1.4,80.2,8.4,-0.72,1532.5,206,302,16.25,2643.5,Aw,Thailand,South-East Asia
+Phetchaburi,29,1,72.5,4.9,-0.69,427.9,5.6,16,13.11,2643.5,Aw,Thailand,South-East Asia
+Phichit,29.8,1.7,72.4,10.9,-0.79,1151.1,39,274,16.44,2643.5,Aw,Thailand,South-East Asia
+Phrae,27.3,1.7,77.4,11.6,-0.69,1239.2,166.1,303,18.15,2643.5,Aw,Thailand,South-East Asia
+Phitsanulok,29.6,1.8,75.7,9.9,-0.91,1407,44.7,275,16.82,2643.5,Aw,Thailand,South-East Asia
+Prachin Buri,28.7,1.3,78.5,7,-0.78,1056.3,3.5,60,14.03,2643.5,Aw,Thailand,South-East Asia
+Prachuap Khiri Khan,26.8,0.9,82.7,4,-0.72,747.8,11.3,1,11.82,2643.5,Aw,Thailand,South-East Asia
+Pathum Thani,29.5,1.4,75,6.8,-0.86,961.7,4.6,44,14.02,2643.5,Aw,Thailand,South-East Asia
+Pattani,28.1,1.1,77.9,6.2,-0.77,824,2.3,0,6.87,2643.5,Am,Thailand,South-East Asia
+Roi Et,28.7,1.7,75.4,9,-0.85,1155.5,152,350,16.05,2643.5,Aw,Thailand,South-East Asia
+Ratchaburi,29.2,1.4,73.3,7.1,-0.86,781.5,14,23,13.53,2643.5,Aw,Thailand,South-East Asia
+Rayong,28.1,0.9,81.6,4.2,-0.65,1051.3,9.7,5,12.68,2643.5,Aw,Thailand,South-East Asia
+Sa Kaeo,28.2,1.3,79.4,7.6,-0.82,985.2,48.2,124,13.8,2643.5,Aw,Thailand,South-East Asia
+Sukhothai,30.1,2,68.6,12.8,-0.82,974.6,50.8,225,17.01,2643.5,Aw,Thailand,South-East Asia
+Sakon Nakhon,27.8,1.9,76.8,10,-0.55,1300.6,171.7,231,17.15,2643.5,Aw,Thailand,South-East Asia
+Samutprakan,29,1,75.3,4.6,-0.62,614.3,0.4,0,13.44,2643.5,Aw,Thailand,South-East Asia
+Samut Sakhon,29,1,75.3,4.6,-0.62,614.3,4.1,0,13.55,2643.5,Aw,Thailand,South-East Asia
+Songkhla,28.1,0.7,80.7,3.4,-0.66,632,5.9,0,7.21,2643.5,Am,Thailand,South-East Asia
+Suphanburi,30.2,1.7,68,8.7,-0.83,650,7.8,108,14.47,2643.5,Aw,Thailand,South-East Asia
+Saraburi,28.5,1.4,76.3,7.7,-0.82,877.2,15.5,104,14.53,2643.5,Aw,Thailand,South-East Asia
+Surat Thani,28.3,1,78.1,5.1,-0.8,627.4,16.7,12,9.13,2643.5,Am,Thailand,South-East Asia
+Si Sa Ket,29.1,1.8,71.4,10,-0.76,812.6,127.1,360,15.12,2643.5,Aw,Thailand,South-East Asia
+Surin,29.1,1.8,71.2,9.7,-0.76,807.5,146,301,14.88,2643.5,Aw,Thailand,South-East Asia
+Tak,29.2,2.3,64.1,12.7,-0.55,527.4,122.2,150,16.88,2643.5,Aw,Thailand,South-East Asia
+Trang,27.5,1,83.1,6.2,-0.85,1174.1,19.7,21,7.56,2643.5,Am,Thailand,South-East Asia
+Ubon Ratchathani,28,1.6,80.2,8.3,-0.88,1472.5,132.6,276,15.23,2643.5,Aw,Thailand,South-East Asia
+Udon Thani,28.4,1.9,74.5,10.7,-0.59,1158,180.3,353,17.42,2643.5,Aw,Thailand,South-East Asia
+Uttaradit,28.5,1.8,74.9,12.8,-0.78,1176,79.1,276,17.63,2643.5,Aw,Thailand,South-East Asia
+Yala,26.7,1.1,78.5,6.4,-0.82,700.9,156.1,50,6.37,2643.5,Am,Thailand,South-East Asia
+Yasothon,28.7,1.8,73.3,10.3,-0.69,976.7,130.6,326,15.8,2643.5,Aw,Thailand,South-East Asia
+Accrington/Rossendale,10.8,4.4,81.2,7.2,-0.04,372.3,276.3,35,53.71,34419,Cfb,UK,North Europe
+Bedford,12.7,4.8,75.6,7.8,-0.26,354,34.3,87,52.14,34419,Cfb,UK,North Europe
+Blackburn,11.4,4.3,80,7,0.01,372.3,216.6,23,53.75,34419,Cfb,UK,North Europe
+Blackpool,11.8,4,79.8,6.4,0.11,372.3,7.8,0,53.82,34419,Cfb,UK,North Europe
+Brighton and Hove,12.4,3.8,82.4,7,0.2,327.5,0.7,0,50.83,34419,Cfb,UK,North Europe
+Barnsley/Dearne Valley,7.6,4.6,80.9,8.1,-0.35,333.8,90.7,49,53.55,34419,Cfb,UK,North Europe
+Birkenhead,12,4.1,79.3,6.1,0.07,367,30.9,0,53.39,34419,Cfb,UK,North Europe
+Burnley,10.8,4.4,81.2,7.2,-0.04,372.3,211.3,43,53.8,34419,Cfb,UK,North Europe
+Bournemouth/Poole,12.9,4.2,78.9,7.8,-0.04,327.5,15.7,0,50.72,34419,Cfb,UK,North Europe
+Bristol,12.6,4.4,78.5,7.5,-0.09,345.5,53.7,7,51.46,34419,Cfb,UK,North Europe
+Burton upon Trent,12,4.6,77.3,7.4,-0.16,355.3,66.9,96,52.81,34419,Cfb,UK,North Europe
+Basildon,14.9,3.2,77.9,7.4,-0.2,331.9,23.7,8,51.57,34419,Cfb,UK,North Europe
+Basingstoke,14.4,3.3,78.1,8.3,-0.23,380.2,151,48,51.26,34419,Cfb,UK,North Europe
+Chelmsford,14.7,3.3,77.7,7.5,-0.22,337.5,49.1,13,51.74,34419,Cfb,UK,North Europe
+Cheltenham,14,3.3,77.9,7.7,-0.22,363.7,179.6,21,51.9,34419,Cfb,UK,North Europe
+Chesterfield,12.9,3.3,80.1,7.5,-0.21,390.5,161.6,67,53.24,34419,Cfb,UK,North Europe
+Colchester,14.6,3.1,78.5,6.7,-0.11,373.3,31.1,7,51.89,34419,Cfb,UK,North Europe
+Cambridge,14.6,3.5,76.3,8,-0.31,360,15.1,65,52.2,34419,Cfb,UK,North Europe
+Cardiff,14,2.8,80.1,7.4,0,349.5,28.9,4,51.48,34419,Cfb,UK,North Europe
+Crawley,14.6,3.1,78.7,8,-0.14,365.9,79.6,30,51.11,34419,Cfb,UK,North Europe
+Coventry,13.9,3.3,77.7,7.7,-0.25,361.3,86.4,88,52.41,34419,Cfb,UK,North Europe
+Doncaster,13.6,3.3,77.6,7.6,-0.25,378.9,27.9,30,53.52,34419,Cfb,UK,North Europe
+Derby,13.5,3.3,78.6,7.5,-0.23,363.1,49.8,94,52.92,34419,Cfb,UK,North Europe
+Eastbourne,14.6,2.4,82.1,6.8,0.23,400.8,2.6,2,50.77,34419,Cfb,UK,North Europe
+Exeter,13.8,2.9,82.5,6.9,-0.05,408.4,57,2,50.72,34419,Cfb,UK,North Europe
+Farnborough/Aldershot,14.5,3.3,77.9,8.3,-0.23,380.2,79.4,51,51.29,34419,Cfb,UK,North Europe
+Gloucester,14.1,3.2,78.7,7.6,-0.18,356.8,29.5,15,51.87,34419,Cfb,UK,North Europe
+Grimsby,13.9,3.2,78,7.6,-0.21,378.9,7.1,0,53.57,34419,Cfb,UK,North Europe
+High Wycombe,14.3,3.4,77.7,8.2,-0.26,356.8,121.1,67,51.63,34419,Cfb,UK,North Europe
+Hastings,14.6,2.4,82.1,6.8,0.23,395.2,0,4,50.85,34419,Cfb,UK,North Europe
+Ipswich,14.7,3,79,6.5,0,366.1,26.9,8,52.06,34419,Cfb,UK,North Europe
+Kingston upon Hull,13.6,3,79.2,6.8,-0.12,405.3,5.4,1,53.75,34419,Cfb,UK,North Europe
+Leicester,13.9,3.4,77.2,7.7,-0.25,365.9,74.6,80,52.64,34419,Cfb,UK,North Europe
+Lincoln,14,3.4,77,7.7,-0.28,390.5,33.8,46,53.23,34419,Cfb,UK,North Europe
+London,14.6,3.3,77.6,8,-0.22,349.5,27.3,25,51.51,34419,Cfb,UK,North Europe
+Luton,14.3,3.4,77,8.2,-0.29,363.7,149.5,66,51.88,34419,Cfb,UK,North Europe
+Liverpool,13.8,2.7,79.6,5.8,0.14,378.9,22.2,0,53.41,34419,Cfb,UK,North Europe
+Maidstone,14.6,3.3,78.6,7.8,-0.23,374.8,52,11,51.27,34419,Cfb,UK,North Europe
+Medway Towns,14.5,3.3,78.6,7.9,-0.22,378,27.6,17,51.27,34419,Cfb,UK,North Europe
+Milton Keynes,14.2,3.4,77.3,8.1,-0.29,363.7,89.7,93,52.04,34419,Cfb,UK,North Europe
+Manchester,13,3.2,80.9,7.2,-0.14,378.9,54.2,36,53.48,34419,Cfb,UK,North Europe
+Mansfield,13.5,3.3,78,7.6,-0.24,390.5,143.2,68,53.13,34419,Cfb,UK,North Europe
+Northampton,14,3.4,77.5,8,-0.29,360,86.3,89,52.25,34419,Cfb,UK,North Europe
+Norwich,14.2,3.1,78.8,7.1,-0.11,384.3,24.5,29,52.63,34419,Cfb,UK,North Europe
+Nottingham,13.8,3.3,77.5,7.6,-0.26,363.1,56.1,74,52.95,34419,Cfb,UK,North Europe
+Newport,14.4,3,78.9,7.5,-0.09,349.5,3.9,2,51.59,34419,Cfb,UK,North Europe
+Oxford,14.2,3.3,77.9,8,-0.25,356.8,86.2,73,51.75,34419,Cfb,UK,North Europe
+Paignton/Torquay,14.2,2.4,82,6.4,0.19,392.3,54.4,0,50.44,34419,Cfb,UK,North Europe
+Plymouth,14.3,2.2,82.8,6.6,0.33,386,39.9,4,50.37,34419,Cfb,UK,North Europe
+Preston,13.5,2.9,80.1,6.6,0.04,405.3,31.7,11,53.77,34419,Cfb,UK,North Europe
+Peterborough,14.5,3.4,76.1,7.9,-0.29,361.3,4.2,35,52.57,34419,Cfb,UK,North Europe
+Reading,14.3,3.3,77.7,8.2,-0.25,349.5,57.1,72,51.46,34419,Cfb,UK,North Europe
+Sheffield,13,3.3,79.6,7.4,-0.21,378.9,117.6,58,53.38,34419,Cfb,UK,North Europe
+Slough,14.5,3.3,77.5,8.1,-0.22,349.5,47.6,59,51.51,34419,Cfb,UK,North Europe
+Sunderland,13.4,3.1,77.5,7.7,-0.14,359.4,49.7,2,54.91,34419,Cfb,UK,North Europe
+South Hampshire,14.9,2.6,79.5,6.9,0.11,408.4,2.1,0,50.84,34419,Cfb,UK,North Europe
+Southend-on-Sea,14.8,2.9,79,6.3,-0.01,379.2,11.2,0,51.54,34419,Cfb,UK,North Europe
+Stoke-on-Trent,13.4,3.2,79.2,7.3,-0.17,363.1,135.7,51,53,34419,Cfb,UK,North Europe
+Swindon,14,3.3,78.8,8.1,-0.22,349.5,127.6,44,51.57,34419,Cfb,UK,North Europe
+Swansea,14.1,2.4,81.2,6.9,0.23,349.5,51.3,0,51.62,34419,Cfb,UK,North Europe
+Thanet,14.8,2.6,80.7,6.3,0.17,387.8,7.8,0,51.36,34419,Cfb,UK,North Europe
+Telford,13.7,3.2,78.5,7.2,-0.18,365.9,125.4,72,52.69,34419,Cfb,UK,North Europe
+Teesside,12.9,2.9,79.4,6.6,-0.07,343.3,39.8,1,54.59,34419,Cfb,UK,North Europe
+Tyneside,13.4,3.1,77.5,7.7,-0.14,359.4,27.1,4,54.99,34419,Cfb,UK,North Europe
+Wigan,13.8,3,79.2,6.7,-0.04,378.9,59.6,17,53.55,34419,Cfb,UK,North Europe
+Worcester,14.1,3.3,77.5,7.6,-0.21,360,26.6,45,52.19,34419,Cfb,UK,North Europe
+Warrington,13.5,3.1,79.8,6.9,-0.08,378.9,36.9,7,53.39,34419,Cfb,UK,North Europe
+West Midlands,13.9,3.3,77.7,7.7,-0.22,361.3,128.6,83,52.49,34419,Cfb,UK,North Europe
+West Yorkshire,13.3,3.2,78.8,7.1,-0.17,405.3,63.8,48,53.8,34419,Cfb,UK,North Europe
+York,13.4,3.3,78.2,7.2,-0.22,386.5,14.4,39,53.96,34419,Cfb,UK,North Europe
+Montevideo,12.9,2.6,80.1,9.3,0.33,454.2,32.8,2,-34.9,15140,Cfa,Uruguay,South America
+Augusta,24.1,4.2,69.6,10.8,-0.07,76.6,48.5,155,33.47,30068.23092,Cfa,USA,North America
+Akron,18.3,5.4,71.2,9.6,0.04,239,331.6,447,41.03,30068.23092,Dfb,USA,North America
+Albany,17.6,5.3,71.8,10.3,0.08,783.7,84.9,171,42.65,30068.23092,Dfb,USA,North America
+Albuquerque,19.4,4.8,42.8,17.3,-0.32,108.9,1567.4,745,35.08,30068.23092,BSk,USA,North America
+Allentown,19.5,5.3,68.6,11.8,0,377.9,178,88,40.57,30068.23092,Dfa,USA,North America
+Anaheim,20.2,2.4,72.5,7.2,-0.34,79.9,50.7,18,33.84,30068.23092,Csa,USA,North America
+Ann Arbor,17.8,5.6,71,9.8,0.03,531,267.4,680,42.28,30068.23092,Dfa,USA,North America
+Austin,26.1,3.9,66.7,11.3,-0.37,9.7,176.2,201,30.28,30068.23092,Cfa,USA,North America
+Atlantic City,20,4.2,77.9,10.2,0.28,221.8,0.7,0,39.35,30068.23092,Cfa,USA,North America
+Atlanta,22.8,4.3,71.3,10.4,-0.03,79.9,290.3,362,33.75,30068.23092,Cfa,USA,North America
+Buffalo,1.1,6.2,73.9,9.5,0.08,784.7,180.6,439,42.88,30068.23092,Dfb,USA,North America
+Bakersfield,24.5,4.7,38.9,11,-0.6,89.3,205.8,117,35.43,30068.23092,BSh,USA,North America
+boulder,14,5.4,60.2,12.7,-0.38,198.9,1706.6,1204,40.02,30068.23092,BSk,USA,North America
+Baltimore,20.9,4.8,71.4,10.4,0.14,221.8,35.4,2,39.28,30068.23092,Cfa,USA,North America
+Bangor,15.4,5.1,74,11.7,-0.01,371.8,37.2,15,44.8,30068.23092,Dfb,USA,North America
+Boise,19.4,6.2,40,13.5,-0.71,455.4,857.9,634,43.62,30068.23092,Csb,USA,North America
+Bergen,19,5.2,69.7,12.3,0.03,239,74.1,24,40.88,30068.23092,Cfa,USA,North America
+Burlington,18,5.3,70.2,12.2,-0.05,502.3,63.8,18,42.51,30068.23092,Dfb,USA,North America
+Birmingham,23.3,4.2,72.8,9.7,0.04,76.6,197.5,321,33.52,30068.23092,Cfa,USA,North America
+Barnstable,16.5,4,82.4,9.7,0.29,271.7,4.1,1,41.67,30068.23092,Cfa,USA,North America
+Brownsville,27.6,2.4,75.5,6,-0.28,3.2,11.6,26,25.92,30068.23092,Cfa,USA,North America
+Boston,17.7,4.9,73.6,11.2,0.03,531,12.7,4,42.35,30068.23092,Dfa,USA,North America
+Baton Rouge,25.1,3.4,76.6,9.2,0.02,11,24.5,73,30.54,30068.23092,Cfa,USA,North America
+Cedar Rapids,18.7,5.8,71,9.9,0.21,319.2,242.2,1280,41.98,30068.23092,Dfa,USA,North America
+Chicago,19.3,5.5,73.5,9,0.05,271.7,180.9,950,41.87,30068.23092,Dfa,USA,North America
+Charlotte,22.7,4.6,69.4,11.7,-0.1,91.7,223.2,243,35.23,30068.23092,Cfa,USA,North America
+Charleston SC,24.4,3.5,79.5,7.2,0.18,54.3,4.2,0,32.78,30068.23092,Cfa,USA,North America
+Chattanooga,22.1,4.4,74.3,9.1,0.05,108.9,222.2,497,35.07,30068.23092,Cfa,USA,North America
+Charleston WV,19.9,4.8,75.1,9.3,0.19,162.3,283.6,370,38.38,30068.23092,Cfa,USA,North America
+Columbus,19.4,5.3,69.7,9.4,0.13,198.9,238.7,516,39.97,30068.23092,Cfa,USA,North America
+Colorado Springs,15.4,5.5,54.5,15,-0.37,242.9,1815.1,1132,38.83,30068.23092,BSk,USA,North America
+Cleveland,18.7,5.3,73.4,8.5,0.04,212.5,208.6,493,41.48,30068.23092,Dfa,USA,North America
+Cincinnati,20.5,5.2,70.4,9.8,0.1,268.9,196.5,625,39.1,30068.23092,Cfa,USA,North America
+Canton,18.3,5.4,71.2,9.6,0.04,239,345.4,434,40.92,30068.23092,Dfa,USA,North America
+Columbia,23.8,4.2,71.2,10.7,-0.05,81.9,55.2,167,34,30068.23092,Cfa,USA,North America
+Carlisle,19.3,5.2,69.5,10.9,0.03,300.5,148.8,113,40.2,30068.23092,Cfa,USA,North America
+Corpus Christ,27,2.7,76.1,7,-0.17,6,3.9,0,27.8,30068.23092,Cfa,USA,North America
+Davis,18.5,6.2,50.8,12.2,-0.68,239,1330,943,41.06,30068.23092,Dfb,USA,North America
+Dallas,25.8,4.7,64.6,11.2,-0.39,54.3,148.6,382,32.77,30068.23092,Cfa,USA,North America
+Denver,16.8,5.7,53.3,14,-0.46,218.3,1630.4,1203,39.75,30068.23092,BSk,USA,North America
+Dover,20.8,5.4,68.3,11.6,0.2,173.4,12.7,8,39.16,30068.23092,Cfa,USA,North America
+Durham,22.3,4.6,72,10.5,0.02,83.6,111.9,181,35.99,30068.23092,Cfa,USA,North America
+Des Moines,19.5,5.9,69.9,9.9,0.13,212.5,266.6,1281,41.58,30068.23092,Dfa,USA,North America
+Detroit,18.7,5.5,71.2,9,0.03,531,183.3,640,42.33,30068.23092,Dfa,USA,North America
+Davenport,19.3,5.7,70.2,9.7,0.13,212.5,198.2,1179,41.52,30068.23092,Dfa,USA,North America
+Daytona Beach,25.9,2,77.2,7.5,0.06,6.5,9,2,29.18,30068.23092,Cfa,USA,North America
+Dayton,19.6,5.3,70.1,9.5,0.13,218.3,252,610,39.77,30068.23092,Cfa,USA,North America
+El Centro,30.6,4.6,31.1,11,-0.07,54.3,-11.8,118,32.79,30068.23092,BWh,USA,North America
+Elkhart,18.3,5.6,72.3,9.8,0.05,271.7,242.6,818,41.68,30068.23092,Dfa,USA,North America
+El Paso,24.9,4.5,38.7,17.3,-0.4,25.5,1183.8,589,31.81,30068.23092,BWk,USA,North America
+Elizabeth,19.8,5.1,70.1,11.2,0.01,346.5,5.9,4,40.66,30068.23092,Cfa,USA,North America
+Erie,16.9,5.2,76.3,9.6,0.08,319.2,239.1,429,42.12,30068.23092,Dfb,USA,North America
+Essex,19.8,5.1,70.1,11.2,0.01,346.5,71.9,17,40.8,30068.23092,Cfa,USA,North America
+Eugene,15.9,4.1,68.6,11,-0.66,363.2,159.2,82,44.05,30068.23092,Csb,USA,North America
+Evansville,22,5.2,68.1,9.6,0.12,121.3,115.1,802,37.97,30068.23092,Cfa,USA,North America
+Everett,13.8,3,77.8,6.9,-0.49,350,53.2,2,47.98,30068.23092,Csb,USA,North America
+Fargo,16.3,6.4,67,11.1,-0.07,332.3,274.6,1147,46.88,30068.23092,Dfb,USA,North America
+Flint,17.5,5.7,70,10.1,-0.04,974.2,240.8,723,42.97,30068.23092,Dfb,USA,North America
+Fresno,24,4.4,43.7,9.2,-0.59,85.8,89.3,170,36.73,30068.23092,BSk,USA,North America
+Fort Lauderdale,26.8,1.2,79.2,5.5,-0.08,3.2,6.6,0,26.1,30068.23092,Am,USA,North America
+Fort Myers,26.7,1.8,74.6,8.5,-0.16,3.8,4.9,1,26.65,30068.23092,Cfa,USA,North America
+Fort Pierce,26.5,1.5,77.5,6.7,0.03,5.8,1.9,0,27.47,30068.23092,Cfa,USA,North America
+Fort Worth,25.7,4.7,63.3,11.6,-0.4,54.3,198.3,406,32.76,30068.23092,Cfa,USA,North America
+Ft Wayne,18.7,5.5,71,9.9,0.12,168.9,244,803,41.14,30068.23092,Dfa,USA,North America
+Fayetteville,23.3,4.5,71.1,10.8,0.01,108.9,38.2,133,35.05,30068.23092,Cfa,USA,North America
+Gary,18.6,6.2,70.4,10.1,0.09,213.3,180.7,923,41.62,30068.23092,Dfa,USA,North America
+Green Bay,16.8,5.8,70.4,10.2,-0.01,379.5,213.1,932,44.51,30068.23092,Dfb,USA,North America
+Greensburg,18,5.1,74.1,9.7,0.12,300.5,346.5,266,40.3,30068.23092,Cfa,USA,North America
+Grand heaven,17.7,5.3,76.3,8.4,0.15,974.2,185.2,901,43.06,30068.23092,Dfb,USA,North America
+Grand Rapids,17.6,5.5,71,10.1,0.07,974.2,230.3,860,42.97,30068.23092,Dfb,USA,North America
+Greensboro,21.8,4.7,71,11.4,-0.05,83.6,272.5,271,36.1,30068.23092,Cfa,USA,North America
+Greenville,22.3,4.4,71.8,10.4,-0.04,152,280.9,293,34.83,30068.23092,Cfa,USA,North America
+Gainesville,25,2.7,77.6,8.2,0.02,8.2,30.2,76,29.65,30068.23092,Cfa,USA,North America
+Hickory,21.4,4.6,72.5,10.4,-0.02,82,308.7,314,35.74,30068.23092,Cfa,USA,North America
+Honolulu,24.9,0.8,77.4,3.8,0.11,11.1,140.8,0,21.3,30068.23092,As,USA,North America
+Harrisburg,19.7,5.2,68.9,10.9,0.01,300.5,119,107,40.27,30068.23092,Cfa,USA,North America
+Hartford,18.4,5.4,70.3,11.9,-0.01,271.7,19.6,58,41.77,30068.23092,Dfa,USA,North America
+Houston,25.9,3.3,75.7,8.3,-0.11,8.2,20.2,40,29.77,30068.23092,Cfa,USA,North America
+Indianapolis,19.9,5.4,70.1,9.9,0.12,218.3,230.4,780,39.77,30068.23092,Cfa,USA,North America
+Jacksonville,25.2,2.9,76.9,7.9,-0.06,9.7,8,28,30.33,30068.23092,Cfa,USA,North America
+Jersey City,19.7,5.6,70.3,11,0.11,352.7,15.4,0,40.7,30068.23092,Cfa,USA,North America
+Kalamazoo,17.7,5.6,73.3,10.1,0.02,531,253.4,815,42.29,30068.23092,Dfa,USA,North America
+Kenosha,17.9,5.8,75.5,10,-0.04,502.3,178.5,993,42.59,30068.23092,Dfb,USA,North America
+Kansas,21.3,5.7,68.9,9.9,-0.07,268.9,250.8,1012,39.12,30068.23092,Cfa,USA,North America
+Knoxville,21.3,4.5,73.7,8.7,0.01,83.6,284.3,480,35.96,30068.23092,Cfa,USA,North America
+Lafayette IN,19.5,5.4,69.7,10.1,0.2,377.9,198.6,849,40.42,30068.23092,Dfa,USA,North America
+Lafayette LA,25.4,3.4,75.5,9.2,0.03,9.7,12.4,40,30.22,30068.23092,Cfa,USA,North America
+Lake Charles,25.4,3.4,77.1,8.8,0.05,9.7,9,46,30.23,30068.23092,Cfa,USA,North America
+Lakeland,26.1,2.1,74.8,8.2,-0.07,6.1,56,41,27.98,30068.23092,Cfa,USA,North America
+Lancaster,20.1,5.2,68.5,11.3,0.06,198.9,113.2,49,40.04,30068.23092,Cfa,USA,North America
+Lansing,17.6,5.6,69.7,10.3,0,783.7,264.6,759,42.73,30068.23092,Dfb,USA,North America
+Louisville,21.1,5.1,71.6,9.8,0.09,116.5,152.5,738,38.25,30068.23092,Cfa,USA,North America
+LaPorte,18.8,5.6,71.4,10.3,0.04,212.5,249.3,868,41.61,30068.23092,Dfa,USA,North America
+Los Angeles,19.8,3.1,65.8,11.6,-0.34,85.9,87.1,5,34.02,30068.23092,Csb,USA,North America
+Las Vegas,25.3,5.5,23.7,12.7,-0.35,81.8,680.6,378,36.21,30068.23092,BWk,USA,North America
+Little Rock,24,4.9,68.9,10.5,-0.11,152,78.3,527,34.75,30068.23092,Cfa,USA,North America
+Macon,24.1,4,70.7,10.5,-0.06,54.3,99.1,243,32.84,30068.23092,Cfa,USA,North America
+McAllen,28.4,2.8,68.9,7.6,-0.45,3.9,38.1,87,26.18,30068.23092,BSh,USA,North America
+Middles,19.8,5.3,69.1,12,0,377.9,78.1,36,40.62,30068.23092,Cfa,USA,North America
+Middletown,17.9,5.3,71.2,11.5,0.06,212.5,167.9,75,41.45,30068.23092,Dfa,USA,North America
+Medford,16.3,4.9,59.4,12.5,-0.66,531,496.8,114,42.33,30068.23092,Csb,USA,North America
+Madison IL,17.7,5.8,69.8,10.3,0.08,974.2,266.4,1124,43.07,30068.23092,Dfb,USA,North America
+Modesto,22,3.6,50.6,10,-0.56,108.8,28.9,91,37.64,30068.23092,Csa,USA,North America
+Madison WI,17.7,5.8,69.8,10.3,0.08,974.2,266.4,1124,43.08,30068.23092,Dfb,USA,North America
+Miami,26.9,1.3,77.8,5.6,-0.09,3.4,8.8,1,25.77,30068.23092,Am,USA,North America
+Melbourne,26.2,1.8,77.5,6.8,0.02,6.1,6,0,28.1,30068.23092,Cfa,USA,North America
+Milwaukee,17.6,5.6,71.4,9.6,0.11,974.2,224.5,1019,43.02,30068.23092,Dfb,USA,North America
+Memphis,23.5,4.7,70.7,9.9,0.04,108.9,92.7,514,35.06,30068.23092,Cfa,USA,North America
+Monmouth,20.6,5,70,11.1,0.02,198.9,15.1,4,39.95,30068.23092,Cfa,USA,North America
+Minneapolis,17.5,6.1,68.5,10.4,0.03,375.5,261.1,1170,44.98,30068.23092,Dfa,USA,North America
+Montgomery,24.5,4,70.9,9.9,-0.04,41.7,72.8,209,32.38,30068.23092,Cfa,USA,North America
+Mobile,25,3.3,78.6,8.4,0.14,12.9,3.6,1,30.65,30068.23092,Cfa,USA,North America
+Monroe,25,4.3,69.9,9.7,-0.06,41.7,26.7,295,32.51,30068.23092,Cfa,USA,North America
+Mercer,17.4,5.2,75.2,9.7,0.11,168.9,370.6,371,41.22,30068.23092,Dfb,USA,North America
+Marlboro,21.6,4.9,70.8,10.6,0.04,242.9,23.9,20,38.82,30068.23092,Cfa,USA,North America
+Muskegon,17.5,5.3,74.9,9.3,0.11,763.6,193.8,906,43.23,30068.23092,Dfb,USA,North America
+Muncie,19.3,5.4,70,9.9,0.15,300.5,290.3,720,40.19,30068.23092,Dfa,USA,North America
+Myrtle Beach,23.8,3.7,78.1,8.4,0.22,79.9,2.2,2,33.68,30068.23092,Cfa,USA,North America
+Nashua,17.7,5.5,69,12.9,-0.1,783.7,80.3,52,42.78,30068.23092,Dfb,USA,North America
+Nassau,19.1,4.5,76.4,9.8,0.21,346.5,53.2,10,40.79,30068.23092,Cfa,USA,North America
+Niles,18.4,5.6,72.1,10.1,0.03,271.7,236.7,845,41.83,30068.23092,Dfa,USA,North America
+Norfolk,22.3,4.4,74.9,9,0.12,85.8,4.7,0,36.85,30068.23092,Cfa,USA,North America
+Nashville,22.4,4.9,71.8,9.5,0.02,81.8,170.8,611,36.17,30068.23092,Cfa,USA,North America
+Newburgh,18.4,5.2,71.6,11.3,0.05,212.5,86.5,66,41.5,30068.23092,Dfa,USA,North America
+New Haven,18.4,4.5,75.1,10.9,0.2,168.9,15.8,1,41.3,30068.23092,Cfa,USA,North America
+New London,17.7,4.2,78.3,10.7,0.27,168.9,45.8,0,41.35,30068.23092,Cfb,USA,North America
+New Orleans,25.8,2.9,77.6,7.7,0.04,8.7,3.8,4,29.95,30068.23092,Cfa,USA,North America
+Newark,19.8,5.1,70.1,11.2,0.01,346.5,4.1,4,40.68,30068.23092,Cfa,USA,North America
+New York,20.1,5,71.7,10.1,0,346.5,15.4,0,40.7,30068.23092,Cfa,USA,North America
+Ocala,25.4,2.5,76.3,8.2,0,6.5,29.4,54,29.17,30068.23092,Cfa,USA,North America
+Oklahoma,23.8,5.5,63.6,11.7,-0.36,89.3,372,683,35.47,30068.23092,Cfa,USA,North America
+Oakland,16.9,2.2,71.1,8.6,-0.38,108.8,1.8,6,37.75,30068.23092,Csb,USA,North America
+Omaha,19.9,6,68.5,10.2,0.05,168.9,316.8,1268,41.27,30068.23092,Dfa,USA,North America
+Orlando,26,2.2,75.8,7.4,-0.04,5.4,31.4,49,28.55,30068.23092,Cfa,USA,North America
+Ottawa,19.3,5.6,69.7,10.1,0.18,168.9,187.6,1027,41.35,30068.23092,Dfa,USA,North America
+Philly,20.6,5.2,67.6,11.1,0.06,198.9,10.7,28,39.95,30068.23092,Cfa,USA,North America
+Phoenix,30.4,4.9,29,14.3,-0.21,76.6,339.4,265,33.45,30068.23092,BWh,USA,North America
+Palm Beach,26.7,1.5,78.4,6.2,-0.09,3.8,8.6,24,26.65,30068.23092,Af,USA,North America
+Plymouth,18.1,5.6,70.2,10,0.01,531,226.1,673,42.37,30068.23092,Dfa,USA,North America
+Pensacola,25.1,3.3,77.3,9.2,0.14,11,1.7,0,30.42,30068.23092,Cfa,USA,North America
+Portland OR,16.3,4.1,67.8,11.1,-0.67,406.7,46.6,91,45.51,30068.23092,Csb,USA,North America
+Provo,17.3,6.3,46.7,14.5,-0.72,300.5,1655.1,914,40.23,30068.23092,Dfa,USA,North America
+Port Arthur,25.7,3.2,78.3,7.6,0,8.7,3.7,0,29.89,30068.23092,Cfa,USA,North America
+Portage,16.3,4.1,67.8,11.1,-0.67,406.7,51,91,45.53,30068.23092,Csb,USA,North America
+Portland ME,15.3,4.3,78.4,10,0.16,463.8,8,3,43.65,30068.23092,Dfb,USA,North America
+Providence,18.2,5.1,72.3,12.1,0.01,271.7,15.4,1,41.83,30068.23092,Cfa,USA,North America
+Pittsburg,18.4,5.2,73.7,9.8,0.12,377.9,282.6,305,40.43,30068.23092,Cfa,USA,North America
+Richmond,22,4.9,71.1,11,-0.02,93.6,48.6,44,37.54,30068.23092,Cfa,USA,North America
+Rochester,17.1,5.2,73.5,8.8,0.11,763.6,162.6,398,43.15,30068.23092,Dfb,USA,North America
+Rockville,21.1,5.2,67.4,12.1,-0.05,268.9,102.4,48,39.08,30068.23092,Cfa,USA,North America
+reading,19.8,5.4,68.1,11.7,-0.02,300.5,97.7,81,40.37,30068.23092,Cfa,USA,North America
+Reno,16.8,5.7,39.6,14.2,-0.65,238.6,1399.8,267,39.53,30068.23092,Csb,USA,North America
+Raleigh,22.6,4.6,71.8,10.9,0.01,82,86.8,149,35.78,30068.23092,Cfa,USA,North America
+Riverside,21.9,4,57.8,11.9,-0.65,81.9,294.5,62,33.95,30068.23092,Csa,USA,North America
+Sacramento,21.5,3.5,53.1,11,-0.58,162.3,15,96,38.56,30068.23092,Csa,USA,North America
+Scranton,17.1,5.3,71.7,10.6,0.06,212.5,439,151,41.4,30068.23092,Dfb,USA,North America
+San Diego,19,2.1,78.9,6,0.13,54.3,91,11,32.82,30068.23092,BSk,USA,North America
+San Francisco,14.9,1.6,80,7.3,-0.22,108.8,5.6,0,37.77,30068.23092,Csb,USA,North America
+Salt Lake,18.6,6.3,47.8,13.5,-0.71,346.5,1537.7,942,40.77,30068.23092,Dfb,USA,North America
+San Jose,17.9,3.6,60.9,12.1,-0.69,92,101.6,27,37.33,30068.23092,Csb,USA,North America
+Santa Barbara,19.1,3,57.2,11.7,-0.4,119.9,8.4,0,34.42,30068.23092,Csb,USA,North America
+San Antonio,26.1,3.6,68,10.6,-0.34,7.6,219.3,194,29.45,30068.23092,Cfa,USA,North America
+Spokane,16.2,5.7,53.6,14.4,-0.67,353.9,720.7,367,47.68,30068.23092,Csb,USA,North America
+Springfield MA,17.9,5.3,70.3,11.7,0,531,75.6,98,42.2,30068.23092,Dfb,USA,North America
+Springfield MO,21.1,5.4,71.9,10.3,-0.08,92,401.1,800,37.19,30068.23092,Cfa,USA,North America
+Spartanburg,22.5,4.6,70.7,11.4,-0.1,108.9,232.6,294,34.95,30068.23092,Cfa,USA,North America
+Sarasota,26.5,1.9,75.7,8,-0.03,5.8,8.5,0,27.38,30068.23092,Cfa,USA,North America
+Saint Charles,21.4,5.6,69.2,10.3,-0.04,242.9,245.6,975,38.79,30068.23092,Cfa,USA,North America
+Stockton,21,3.3,54.5,9.9,-0.52,121.3,10,86,37.89,30068.23092,Csa,USA,North America
+Saint Clair,21.5,5.5,68.1,9.6,0.07,242.9,126.6,890,38.63,30068.23092,Cfa,USA,North America
+South bend,18.4,5.6,72.1,10.1,0.03,271.7,251.9,841,41.68,30068.23092,Dfa,USA,North America
+St. Louis,21.5,5.5,68.1,9.6,0.07,242.9,144,890,38.63,30068.23092,Cfa,USA,North America
+Stamford,19.6,5,72.3,10.7,0.02,239,88.5,10,41.07,30068.23092,Cfa,USA,North America
+St. Petersburg,26.4,1.8,78.3,6.3,0,6,7.4,0,27.77,30068.23092,Cfa,USA,North America
+State College,17.8,5.3,72,10.3,0.03,346.5,360.7,201,40.79,30068.23092,Dfb,USA,North America
+Seattle,15.6,3.5,74.8,7.7,-0.55,353.4,34.5,1,47.6,30068.23092,Csb,USA,North America
+Tacoma,15.8,3.4,74.8,7.6,-0.51,341,65.6,2,47.25,30068.23092,Csb,USA,North America
+Tampa,26.2,2.1,77.2,6.9,0.01,6.1,13.2,6,27.95,30068.23092,Cfa,USA,North America
+Tucson,27.3,4.2,34.2,15.9,-0.2,37.8,786,236,32.18,30068.23092,BSh,USA,North America
+Tallahassee,24.7,3.1,76.7,9.6,0.09,11,55.7,30,30.44,30068.23092,Cfa,USA,North America
+Toledo,18.6,5.5,70.6,9.4,0.03,271.7,194.9,645,41.73,30068.23092,Dfa,USA,North America
+Topeka,21.4,5.9,68.4,10.5,-0.13,268.9,287.2,1013,39.05,30068.23092,Cfa,USA,North America
+Trenton,20.3,5.2,68.4,11.7,0.04,300.5,19.6,54,40.22,30068.23092,Cfa,USA,North America
+Terra Haute,20.5,5.4,69.4,9.8,0.15,238.6,159.7,878,39.47,30068.23092,Cfa,USA,North America
+Tulsa,23.6,5.4,66.5,10.4,-0.24,81.8,191.4,714,36.2,30068.23092,Cfa,USA,North America
+Visalia,24.1,4.5,43.7,9.7,-0.61,81.8,102.4,173,36.33,30068.23092,BSk,USA,North America
+Vancouver,15.7,4.1,70.4,10.7,-0.65,394.5,42.6,89,45.63,30068.23092,Csb,USA,North America
+Ventura,18.8,2.3,75.2,7.4,-0.29,91.3,14.1,3,34.25,30068.23092,Csb,USA,North America
+Wichita,22.1,5.8,65.8,11.4,-0.24,108.8,414.4,908,37.68,30068.23092,Cfa,USA,North America
+weber,17.2,6.1,48.2,13.6,-0.65,168.9,1420.8,947,41.22,30068.23092,Dfb,USA,North America
+Wilmington,20.6,5.1,70,11.1,0.1,218.3,6.3,1,39.68,30068.23092,Cfa,USA,North America
+Winston,21.9,4.7,70.4,11.3,-0.06,83.6,277.7,288,36.1,30068.23092,Cfa,USA,North America
+Worcester,17.7,5.4,70,12.9,-0.06,531,278.7,67,42.27,30068.23092,Dfb,USA,North America
+WDC,21.2,5.2,68.1,11.3,-0.04,268.9,19.9,28,38.9,30068.23092,Cfa,USA,North America
+Washington,18.6,5.1,73.2,9.9,0.13,300.5,371.1,306,40.17,30068.23092,Cfa,USA,North America
+Youngstown,18,5.3,73.3,9.8,0.08,239,347.9,393,40.96,30068.23092,Dfb,USA,North America
+York,20.2,5.2,67.5,10.8,0.03,198.9,178.1,71,39.92,30068.23092,Cfa,USA,North America
+Ho Chi Minh City,27.6,1.1,84.6,4.2,-0.86,1549.4,5,25,10.75,1542.7,Aw,Vietnam,South-East Asia
+Hue,27.9,1.7,81.6,6.1,-0.77,1635.3,14.7,3,16.47,1542.7,Am,Vietnam,South-East Asia
