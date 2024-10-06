@@ -4,7 +4,7 @@
 # This script is developed and tested in Python 3.7.12 and Linux platform, and can be run also in Windows with
 # proper environment settings.
 # Description:
-# This script is the to plot the feature importance and CT-RH versus qAIC difference (Figures 4 and 5 in the manuscript)
+# This script is the to plot the feature importance (Figure 4 in the manuscript)
 
 
 import numpy as np
