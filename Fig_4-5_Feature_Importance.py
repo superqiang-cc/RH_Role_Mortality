@@ -132,30 +132,6 @@ plt.scatter(mcc_lon,
             linewidths=0.1,
             transform=ccrs.PlateCarree())
 plt.text(-1.65e+07, 8.1e+06, 'b', fontsize=9)
-plt.scatter(mcc_lon[[102, 109, 307, 156]], mcc_lat[[102, 109, 307, 156]],
-            s=8,
-            c='k',
-            zorder=4,
-            transform=ccrs.PlateCarree())
-
-geodetic_transform = ccrs.PlateCarree()._as_mpl_transform(ax)
-
-ax.text(mcc_lon[102], mcc_lat[102], 'Frankfurt', fontsize=8,
-        verticalalignment='center', horizontalalignment='center',
-        transform=offset_copy(geodetic_transform, units='dots', x=-350, y=+150))
-
-ax.text(mcc_lon[109], mcc_lat[109], 'Athens', fontsize=8,
-        verticalalignment='center', horizontalalignment='center',
-        transform=offset_copy(geodetic_transform, units='dots', x=+250, y=-100))
-
-ax.text(mcc_lon[307], mcc_lat[307], 'Busan', fontsize=8,
-        verticalalignment='center', horizontalalignment='center',
-        transform=offset_copy(geodetic_transform, units='dots', x=-300, y=-100))
-
-ax.text(mcc_lon[156], mcc_lat[156], 'Kanagawa', fontsize=8,
-        verticalalignment='center', horizontalalignment='center',
-        transform=offset_copy(geodetic_transform, units='dots', x=+320, y=-100))
-
 
 # colorbar, subplot b
 ax = fig1.add_subplot(gs[1, 1])
@@ -212,75 +188,5 @@ cb.ax.set_yticklabels([0.0, 0.2, 0.4, 0.6, 0.8, 1.0], fontsize=8)
 #              format='jpg',
 #              dpi=1200)
 
-#######################################################################################################################
-# # plot the Figure 5
-
-fig2 = plt.figure(2, figsize=(two_clm, 7.5), constrained_layout=True)
-gs = gridspec.GridSpec(figure=fig2,
-                       nrows=8,
-                       ncols=1,
-                       height_ratios=[1,
-                                      1,
-                                      1,
-                                      1,
-                                      1,
-                                      1,
-                                      1,
-                                      1
-                                      ],
-                       width_ratios=[1])
-od = ['a.  HI', 'b.  UTCI', 'c.  APT', r'd.  H$_{\mathrm{x}}$',
-      r'e.  T$_{\mathrm{sWBG}}$', r'f.  T$_{\mathrm{WBG}}$', r'g.  T$_{\mathrm{s}}$', r'h.  T$_{\mathrm{w}}$']
-
-for hsi in range(8):
-    ax = fig2.add_subplot(gs[hsi, 0])
-
-    # obtain and plot the qAIC difference between each HSI and Tair
-    y = qaic_all[hsi + 1, :] - qaic_all[0, :]
-    ax.scatter(ctrh, y, s=0.5, c='green')
-    plt.axis([-1, 1, -40, 40])
-    plt.axhline(0, color='k', linewidth=1.1, linestyle='--')
-    plt.axvline(0, color='k', linewidth=1.1, linestyle='--')
-
-    # obtain the linear regression and plot the orange line
-    X = sm.add_constant(np.array(ctrh).reshape(-1, 1))
-    ordr = np.argsort(X[:, 1])
-    ols_model = sm.OLS(y[ordr], X[ordr, :])
-    ols_results = ols_model.fit()
-    p_values = ols_results.pvalues[1]
-    y_pred = ols_results.predict(X[ordr, :])
-
-    ax.plot(X[ordr, 1], y_pred, '-', c='orange', linewidth=1.2)
-    plt.ylabel('$\Delta$qAIC', fontsize=9)
-    if hsi > 6:
-        plt.axis([-1, 1, -80, 80])
-        plt.yticks([-60, 0, 60], [-60, 0, 60], fontsize=8)
-        plt.text(0.7, 53.4, 'p-value: ' + str(format(p_values, '.2f')), fontsize=9)
-        plt.text(-0.99, 54, od[hsi], fontsize=9)
-    elif hsi > 5:
-        plt.axis([-1, 1, -60, 60])
-        plt.yticks([-50, 0, 50], [-50, 0, 50], fontsize=8)
-        plt.text(0.7, 40, 'p-value: ' + str(format(p_values, '.2f')), fontsize=9)
-        plt.text(-0.99, 40.5, od[hsi], fontsize=9)
-    else:
-        plt.axis([-1, 1, -40, 40])
-        plt.yticks([-30, 0, 30], [-30, 0, 30], fontsize=8)
-        plt.text(0.7, 26.7, 'p-value: ' + str(format(p_values, '.2f')), fontsize=9)
-        plt.text(-0.99, 27, od[hsi], fontsize=9)
-
-    if hsi == 7:
-        plt.xticks([-1, -0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75, 1],
-                   [-1, -0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75, 1],
-                   fontsize=8)
-        plt.xlabel(r'C$_{\mathrm{T-RH}}$', fontsize=9)
-    else:
-        plt.xticks([])
-
-
-plt.show()
-#
-# fig2.savefig('Fig_5.jpg',
-#              format='jpg',
-#              dpi=1200)
 
 print('All Finished.')
